@@ -1,6 +1,5 @@
-# Mol_Phyl_2021
 
-# **Molecular Phylogenetics Course**
+# **Molecular Phylogenetics Course 2021**
 
 By Systematic Biology Group, Lund University
 
@@ -17,11 +16,11 @@ In this intense course we will introduce the basics of phylogenetics, covering b
 | ---------- | ---- | ---- | ---- |
 | 9:00-10:30 | Lecture 1: Introduction (NW) | Lecture 3: Introduction to model based methods (JR) | Lecture 5: Properties of DNA data and assessing robustness of hypotheses (JR) |
 | 10:30-11:00 | Fika | Fika | Fika |
-| 11:00-12:30 | Lecture 2: Understanding trees and alignments (NW) | Lecture 4: Statistical frameworks for modelling in phylogenetics (ML and Bayesian) (JR) | Lecture 6: Timing of divergence analyses and using trees for evolutionary studies (NW) |
+| 11:00-12:30 | Lecture 2: Understanding trees and alignments (NW) | Lecture 4: Statistical frameworks for modelling in phylogenetics (ML and Bayesian) (JR) | Lecture 6: Phylogenomics? |
 | 12:30-13:30 | Lunch | Lunch | Lunch |
-| 13:30-15:00 | Tutorials 1 and 2 | Tutorials 3, 4, and 5 | Tutorial 6 |
+| 13:30-15:00 | Tutorial 1 | Tutorial 3 |  Tutorial 5 | 
 | 15:00-15:30 | Fika | Fika | Fika |
-| 15:30-16:30 | Tutorials 1 and 2 | Tutorials 3, 4, and 5 | Tutorial 6 |
+| 15:30-16:30 | Tutorials 2 | Tutorial 4 | Questions | 
 
 
 
@@ -68,11 +67,7 @@ Here you can find a list of the programs we are going to use and links to where 
 
  * [AliView](http://www.ormbunkar.se/aliview/downloads/)
 
- * [PartitionFinder2](http://www.robertlanfear.com/partitionfinder/)
-
- * [RAxML](https://antonellilab.github.io/raxmlGUI/)
-
- * [IQ-TREE](http://www.iqtree.org/)
+ * [IQ-TREE2](http://www.iqtree.org/)
  
  * [MrBayes](http://nbisweden.github.io/MrBayes/)
 	
