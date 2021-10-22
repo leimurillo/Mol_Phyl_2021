@@ -53,8 +53,7 @@ Here are deposited the instructions for the assignments and exercises.
  
  * [Bayesian methods (5)](../../tree/master/Tutorials/5.BayesianInference/)
  
- * [Inference of Times of Divergence (6)](../../tree/master/Tutorials//6.DivergenceTime/)
- 
+
 
 ### [Programs used in the tutorials](../../tree/master/Software/)
 
@@ -78,8 +77,6 @@ Here you can find a list of the programs we are going to use and links to where 
  * [MrBayes](http://nbisweden.github.io/MrBayes/)
 	
  * [FigTree](http://tree.bio.ed.ac.uk/software/figtree/)
-
- * [BEAST2](https://www.beast2.org/)
 
  * [Tracer](https://github.com/beast-dev/tracer/releases/tag/v1.7.1)
 
