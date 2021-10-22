@@ -22,8 +22,7 @@ For this tutorial we are going to use the `Dataset.phy` and a command file that 
 
 **Choosing the right substitution model**
 
-In this tutorial we will use ModelFinder [Kalyaanamoorthy et al. 2017] 
-(https://www.nature.com/articles/nmeth.4285), implemented in IQTREE2, to determine the best-fit model. ModelFinder chooses the model that minimizes the BIC score (you can also change to AIC or AICc by adding the option -AIC or -AICc, respectively).
+In this tutorial we will use ModelFinder [Kalyaanamoorthy et al. 2017](https://www.nature.com/articles/nmeth.4285)., implemented in IQTREE2, to determine the best-fit model. ModelFinder chooses the model that minimizes the BIC score (you can also change to AIC or AICc by adding the option -AIC or -AICc, respectively).
 
 But first, you have to prepare a partition file in NEXUS or RAxML-style format. 
 
