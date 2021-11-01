@@ -70,18 +70,18 @@ Pictures of the species used to generate the sequences above.
 Opening the [link]( https://www.ncbi.nlm.nih.gov/genbank/) provided earlier you can see the following (slight differences may exist due to different web browsers and operating systems and the position of the planets and …).
 
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021//blob/main/Tutorials/1.DatasetManipulation/Genbank1.png" alt="Genbank1" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank1.png" alt="Genbank1" width="800"></p>
 
 
 In the red rectangle you see a list option which should be on ***Nucleotide***. Clicking on the list you can see other repositories offered by NCBI website. Here we are going to create a dataset of nucleotide sequences of three protein coding genes, so we chose the ***Nucleotide*** option. Remember that these two markers being protein coding genes, allow us to create also ***Amino Acid*** datasets. *Do you know why we stay with nucleotides in this case? Wich option allows you to create an amino acid dataset?*
 
 Now pick an accession number from the list and hit search. You should see something similar to this picture:
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021//blob/main/Tutorials/1.DatasetManipulation/Genbank2.png" alt="Genbank2" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank2.png" alt="Genbank2" width="800"></p>
 
 Take a look at it. Try to decipher different parts of it. Now look at the 2 red rectangles on top of the picture. The one on the left where you can read ***GenBank*** is the format of the information. And the other rectangle ***Send to:*** create a downloadable file. Click on it. Choose ***Complete Record***, ***File*** under *Choose Destination* and finally in *format:* choose ***FASTA***. 
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021//blob/main/Tutorials/1.DatasetManipulation/Genbank3.png" alt="Genbank3" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank3.png" alt="Genbank3" width="800"></p>
 
 Now ***Create File***! And *Voila!* Congratulations, now you have downloaded your first Fasta file.
 
