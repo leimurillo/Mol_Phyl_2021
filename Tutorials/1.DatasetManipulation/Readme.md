@@ -9,7 +9,7 @@ In this section we will learn to download genetic sequence information from onli
 Using a web browser, you need to navigate to the NCBI’s Genbank. Even if the [link]( https://www.ncbi.nlm.nih.gov/genbank/) is not easy to remember, googling basically any keyword combination containing Genbank will bring you to the NCBI quite easily. In Genbank each sequence entry has a unique identification code called ***accession number***. For this exercise, you need to download the sequences of the following accession numbers.
 
 | # | Code | Organism name | 
-|---|---|---|---|---|---|
+|---|---|---|
 | 1 | KP202271 | Acinonyx jubatus |
 | 2 | KP202272 | Caracal caracal |
 | 3 | KX265095 | Catopuma badia | 
@@ -19,8 +19,8 @@ Using a web browser, you need to navigate to the NCBI’s Genbank. Even if the [
 | 7 | NC_028307 | Felis chaus |
 | 8 | KR132580 | Felis margarita | 
 | 9 | KP202277 | Felis nigripes | 
-| 10 | KP202273 | Felis silvestris | bietis |
-| 11 | KP202275 | Felis silvestris | bietis |lybica |
+| 10 | KP202273 | Felis silvestris bietis |
+| 11 | KP202275 | Felis silvestris lybica |
 | 12 | KP202282 | Leopardus colocolo | 
 | 13 | KP202292 | Leopardus geoffroyi | 
 | 14 | KP202293 |  Leopardus guigna | 
@@ -36,19 +36,19 @@ Using a web browser, you need to navigate to the NCBI’s Genbank. Even if the [
 | 24 | DQ257669 | Neofelis	nebulosa | 
 | 25 | KP202291 | Neofelis	nebulosa | 
 | 26 | KP202295 | Otocolobus	manul  | 
-| 27 | KC834784 | Panthera	leo | persica |
-| 28 | KU234271 | Panthera	leo | persica | 
-| 29 | KX258451 | Panthera	leo | spelaea |
-| 30 | KX258452 | Panthera	leo | spelaea |
+| 27 | KC834784 | Panthera	leo persica |
+| 28 | KU234271 | Panthera	leo persica | 
+| 29 | KX258451 | Panthera	leo spelaea |
+| 30 | KX258452 | Panthera	leo spelaea |
 | 31 | KP001494 | Panthera	leo | 
 | 32 | KP001495 | Panthera	leo | 
 | 33 | KF483864 | Panthera	onca | 
 | 34 | KM236783 | Panthera	onca |
-| 35 | KKJ866876 | Panthera	pardus |japonensis |
+| 35 | KKJ866876 | Panthera	pardus japonensis |
 | 36 | KP001507 | Panthera	pardus | 
-| 37 | MH124079 | Panthera	tigris |altaica |
-| 38 | JF357972 | Panthera	tigris  |corbetti |
-| 39 | JF357970 | Panthera	tigris |sumatrae |
+| 37 | MH124079 | Panthera	tigris altaica |
+| 38 | JF357972 | Panthera	tigris corbetti |
+| 39 | JF357970 | Panthera	tigris sumatrae |
 | 40 | KJ508413 | Panthera	tigris |
 | 41 | EF551004 | Panthera	uncia | 
 | 42 | KP202269 | Panthera	uncia |
@@ -58,11 +58,11 @@ Using a web browser, you need to navigate to the NCBI’s Genbank. Even if the [
 | 46 | KR135743 | Prionailurus	planiceps |
 | 47 | KR135744 | Prionailurus	rubiginosus | 
 | 48 | KR135742 | Prionailurus	viverrinus | 
-| 47 | KP202261 | Puma	concolor | 
-| 48 | KP202279 | Puma	yagouaroundi |
+| 49 | KP202261 | Puma	concolor | 
+| 50 | KP202279 | Puma	yagouaroundi |
 
-Pictures of the actual voucher specimens used to generate the sequences above.
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/master/Tutorials/1.DatasetManipulation/Cats.jpeg" alt="Cats" width="800"></p>
+Pictures of the species used to generate the sequences above.
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/Tutorials/1.DatasetManipulation/Cats.jpeg" alt="Cats" width="800"></p>
 
 
 
@@ -70,27 +70,28 @@ Pictures of the actual voucher specimens used to generate the sequences above.
 Opening the [link]( https://www.ncbi.nlm.nih.gov/genbank/) provided earlier you can see the following (slight differences may exist due to different web browsers and operating systems and the position of the planets and …).
 
 
-<p align="center"><img src="https://github.com/https://github.com/leimurillo/Mol_Phyl_2021/blob/master/Tutorials/1.DatasetManipulation/Genbank1.png" alt="Genbank1" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021//Tutorials/1.DatasetManipulation/Genbank1.png" alt="Genbank1" width="800"></p>
 
 
 In the red rectangle you see a list option which should be on ***Nucleotide***. Clicking on the list you can see other repositories offered by NCBI website. Here we are going to create a dataset of nucleotide sequences of three protein coding genes, so we chose the ***Nucleotide*** option. Remember that these two markers being protein coding genes, allow us to create also ***Amino Acid*** datasets. *Do you know why we stay with nucleotides in this case? Wich option allows you to create an amino acid dataset?*
 
 Now pick an accession number from the list and hit search. You should see something similar to this picture:
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/master/Tutorials/1.DatasetManipulation/Genbank2.png" alt="Genbank2" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/Tutorials/1.DatasetManipulation/Genbank2.png" alt="Genbank2" width="800"></p>
 
 Take a look at it. Try to decipher different parts of it. Now look at the 2 red rectangles on top of the picture. The one on the left where you can read ***GenBank*** is the format of the information. And the other rectangle ***Send to:*** create a downloadable file. Click on it. Choose ***Complete Record***, ***File*** under *Choose Destination* and finally in *format:* choose ***FASTA***. 
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/master/Tutorials/1.DatasetManipulationGenbank3.png" alt="Genbank3" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/Tutorials/1.DatasetManipulationGenbank3.png" alt="Genbank3" width="800"></p>
 
 Now ***Create File***! And *Voila!* Congratulations, now you have downloaded your first Fasta file.
 
-Now download all sequences for each gene separately. ***IMPORTANT TIP*** Do not download each accession number separately! Go to this link ([www.ncbi.nlm.nih.gov/sites/batchentrez](https://www.ncbi.nlm.nih.gov/sites/batchentrez)) and follow the instructions for a batch download ;) Also remember to change the name of your files to the name of their genes. Now you should have these 3 files:
+Now download all sequences for each gene separately. ***IMPORTANT TIP*** Do not download each accession number separately! Go to this link ([www.ncbi.nlm.nih.gov/sites/batchentrez](https://www.ncbi.nlm.nih.gov/sites/batchentrez)) and follow the instructions for a batch download ;) Also remember to change the name of your files to the name of their genes. Now you should have these 4 files:
 
 ```
+ATP6.fasta
 COI.fasta
-EF1a.fasta
-Wingless.fasta
+Cytb.fasta
+ND5.fasta
 ```
 
 ---------
@@ -130,9 +131,10 @@ Now save the files adding `2` after the name of the genes. You should have the f
 
 
 ```
-COI2.fasta
-EF1a2.fasta
-Wingless2.fasta
+ATP6.fasta
+COI.fasta
+Cytb.fasta
+ND5.fasta
 ```
 
 Now we can proceed to the next tutorial to learn about Alignment Methods. But before lets take a look at our sequence files in a graphical interface specifically designed to visualize sequences and alignments, ***Aliview***.
