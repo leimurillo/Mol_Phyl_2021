@@ -8,28 +8,61 @@ In this section we will learn to download genetic sequence information from onli
 
 Using a web browser, you need to navigate to the NCBI’s Genbank. Even if the [link]( https://www.ncbi.nlm.nih.gov/genbank/) is not easy to remember, googling basically any keyword combination containing Genbank will bring you to the NCBI quite easily. In Genbank each sequence entry has a unique identification code called ***accession number***. For this exercise, you need to download the sequences of the following accession numbers.
 
-| # | Code | Organism name | COI Acc. N. | EF1a Acc. N. | Wingless Acc. N. |
+| # | Code | Organism name | 
 |---|---|---|---|---|---|
-| 1 | CP07-44 | Marpesia zerynthia | KM012966 | KM013048 | KM013115 |
-| 2 | NW89-13 | Hypanartia dione | HQ734933 | HQ734953 | HQ734843 |
-| 3 | NW68-11 | Colobura dirce | AY090228 | AY090196 | AY090162 |
-| 4 | NW39-2 | Araschnia levana | AY248780 | AY248805 | AF412762 |
-| 5 | NW82-15 | Asterocampa leilia | KM012928 | AY218257 | AY218275 |
-| 6 | NW63-3 | Aglais urticae | AY248786 | AY248811 | AF412777 |
-| 7 | NW68-5 | Anartia amathea | AY788606 | AY788708 | AY788469 |
-| 8 | NW76-2 | Eresia eranites | AY788617 | AY788722 | AY788483 |
-| 9 | NW73-14 | Melitaea cinxia | AY788656 | AY788776 | AY788536 |
-| 10 | NW85-13 | Junonia coenia | AY788643 | AY248801 | AY248826 |
-| 11 | NW11-4 | Phyciodes cocyta | AF187755 | AY090192 | AY090158 |
-| 12 | NW81-5 | Rhinopalpa polynice | AY788674 | AY788812 | AY788572 |
-| 13 | NW63-21 | Vanessa atalanta | AY090221 | AY090187 | AF412772 |
-| 14 | NW96-5 | Vanessula milca | AY788691 | AY788829 | AY788589 |
-| 15 | NW62-1 | Chlosyne janais | AY788620 | AY788730 | AY788491 |
-| 16 | NW87-3 | Tigridia acesta | AY788684 | AY788822 | AY788582 |
-| 17 | NW130-15 | Baeotus beotus | AY788615 | AY788720 | AY788481 |
+| 1 | KP202271 | Acinonyx jubatus |
+| 2 | KP202272 | Caracal caracal |
+| 3 | KX265095 | Catopuma badia | 
+| 4 | KX265096 | Catopuma badia |
+| 5 | KP271500 | Catopuma temminckii |
+| 6 | FCU20753 | Felis catus | 
+| 7 | NC_028307 | Felis chaus |
+| 8 | KR132580 | Felis margarita | 
+| 9 | KP202277 | Felis nigripes | 
+| 10 | KP202273 | Felis silvestris | bietis |
+| 11 | KP202275 | Felis silvestris | bietis |lybica |
+| 12 | KP202282 | Leopardus colocolo | 
+| 13 | KP202292 | Leopardus geoffroyi | 
+| 14 | KP202293 |  Leopardus guigna | 
+| 15 | KP202294 | Leopardus jacobita |
+| 16 | KP202284 | Leopardus pardalis |
+| 17 | KP202287 | Leopardus tigrinus | 
+| 18 | KP202288 | Leopardus tigrinus | 
+| 19 | KP202289 | Leopardus	wiedii |
+| 20 | KP202286 | Leptailurus	serval | 
+| 21 | KR132581 | Lynx	lynx |
+| 22 | KX911367 | Lynx	pardinus |
+| 23 | KP202285 | Lynx	rufus | 
+| 24 | DQ257669 | Neofelis	nebulosa | 
+| 25 | KP202291 | Neofelis	nebulosa | 
+| 26 | KP202295 | Otocolobus	manul  | 
+| 27 | KC834784 | Panthera	leo | persica |
+| 28 | KU234271 | Panthera	leo | persica | 
+| 29 | KX258451 | Panthera	leo | spelaea |
+| 30 | KX258452 | Panthera	leo | spelaea |
+| 31 | KP001494 | Panthera	leo | 
+| 32 | KP001495 | Panthera	leo | 
+| 33 | KF483864 | Panthera	onca | 
+| 34 | KM236783 | Panthera	onca |
+| 35 | KKJ866876 | Panthera	pardus |japonensis |
+| 36 | KP001507 | Panthera	pardus | 
+| 37 | MH124079 | Panthera	tigris |altaica |
+| 38 | JF357972 | Panthera	tigris  |corbetti |
+| 39 | JF357970 | Panthera	tigris |sumatrae |
+| 40 | KJ508413 | Panthera	tigris |
+| 41 | EF551004 | Panthera	uncia | 
+| 42 | KP202269 | Panthera	uncia |
+| 43 | KP202263 | Pardofelis	marmorata | 
+| 44 | KT288227 | Pardofelis	marmorata | 
+| 45 | HM185183 | Prionailurus	bengalensisa | 
+| 46 | KR135743 | Prionailurus	planiceps |
+| 47 | KR135744 | Prionailurus	rubiginosus | 
+| 48 | KR135742 | Prionailurus	viverrinus | 
+| 47 | KP202261 | Puma	concolor | 
+| 48 | KP202279 | Puma	yagouaroundi |
 
 Pictures of the actual voucher specimens used to generate the sequences above.
-<p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/1.DatasetManipulation/Butterflies_for_tutorial.png" alt="Butterflies" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/master/Tutorials/1.DatasetManipulation/Cats.jpeg" alt="Cats" width="800"></p>
 
 
 
@@ -37,18 +70,18 @@ Pictures of the actual voucher specimens used to generate the sequences above.
 Opening the [link]( https://www.ncbi.nlm.nih.gov/genbank/) provided earlier you can see the following (slight differences may exist due to different web browsers and operating systems and the position of the planets and …).
 
 
-<p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/1.DatasetManipulation/Genbank1.png" alt="Genbank1" width="800"></p>
+<p align="center"><img src="https://github.com/https://github.com/leimurillo/Mol_Phyl_2021/blob/master/Tutorials/1.DatasetManipulation/Genbank1.png" alt="Genbank1" width="800"></p>
 
 
 In the red rectangle you see a list option which should be on ***Nucleotide***. Clicking on the list you can see other repositories offered by NCBI website. Here we are going to create a dataset of nucleotide sequences of three protein coding genes, so we chose the ***Nucleotide*** option. Remember that these two markers being protein coding genes, allow us to create also ***Amino Acid*** datasets. *Do you know why we stay with nucleotides in this case? Wich option allows you to create an amino acid dataset?*
 
 Now pick an accession number from the list and hit search. You should see something similar to this picture:
 
-<p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/1.DatasetManipulation/Genbank2.png" alt="Genbank2" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/master/Tutorials/1.DatasetManipulation/Genbank2.png" alt="Genbank2" width="800"></p>
 
 Take a look at it. Try to decipher different parts of it. Now look at the 2 red rectangles on top of the picture. The one on the left where you can read ***GenBank*** is the format of the information. And the other rectangle ***Send to:*** create a downloadable file. Click on it. Choose ***Complete Record***, ***File*** under *Choose Destination* and finally in *format:* choose ***FASTA***. 
 
-<p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/1.DatasetManipulation/Genbank3.png" alt="Genbank3" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/master/Tutorials/1.DatasetManipulationGenbank3.png" alt="Genbank3" width="800"></p>
 
 Now ***Create File***! And *Voila!* Congratulations, now you have downloaded your first Fasta file.
 
