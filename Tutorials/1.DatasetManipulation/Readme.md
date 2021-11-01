@@ -62,7 +62,7 @@ Using a web browser, you need to navigate to the NCBI’s Genbank. Even if the [
 | 50 | KP202279 | Puma	yagouaroundi |
 
 Pictures of the species used to generate the sequences above.
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/master/Tutorials/1.DatasetManipulation/Cats.jpeg" alt="Cats" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Cats.jpeg" alt="Cats" width="500"></p>
 
 
 
