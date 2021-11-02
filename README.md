@@ -16,7 +16,7 @@ In this intense course we will introduce the basics of phylogenetics, covering b
 | ---------- | ---- | ---- | ---- |
 | 9:00-10:30 | Lecture 1: Introduction (NW) | Lecture 3: Introduction to model based methods (JR) | Lecture 5: Properties of DNA data and assessing robustness of hypotheses (JR) |
 | 10:30-11:00 | Fika | Fika | Fika |
-| 11:00-12:30 | Lecture 2: Understanding trees and alignments (NW) | Lecture 4: Statistical frameworks for modelling in phylogenetics (ML and Bayesian) (JR) | Lecture 6: Phylogenomics? |
+| 11:00-12:30 | Lecture 2: Understanding trees and alignments (NW) | Lecture 4: Statistical frameworks for modelling in phylogenetics (ML and Bayesian) (JR) | Lecture 6: Timing of Divergence (NW) |
 | 12:30-13:30 | Lunch | Lunch | Lunch |
 | 13:30-15:00 | Tutorial 1 | Tutorial 3 |  Tutorial 5 | 
 | 15:00-15:30 | Fika | Fika | Fika |
