@@ -51,7 +51,7 @@ IQTREE2 will infer a tree from a sequence alignment (file.phy) with the best-fit
 
 You should have something similar to this:
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/3.MaximunLikelihood/ITREEb.png" alt="IQTREE2b" width="900"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/4.MaximunLikelihood/IQTREEb.png" alt="IQTREE2b" width="600"></p>
 
 **Congratulations! now that you have ran the analyses, compare the results.**
 
