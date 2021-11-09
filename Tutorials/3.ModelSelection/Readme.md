@@ -24,7 +24,7 @@ For substution model selection we are going to use the `15genes.phy` and a comma
 
 We will use ModelFinder [Kalyaanamoorthy et al. 2017](https://www.nature.com/articles/nmeth.4285), implemented in IQTREE2, to determine the best-fit model. ModelFinder chooses the model that minimizes the BIC score (you can also change to AIC or AICc by adding the option -AIC or -AICc, respectively).
 
-But first, you have to prepare a partition file either in NEXUS or RAxML-style format like the example below: 
+You will need a partition file either in NEXUS or RAxML-style format like the examples below: 
 
 The RAxML-style partition file may look like:
 
@@ -43,7 +43,7 @@ begin sets;
 end;
 ```
 
-However, for this tutorial we will use a partitions file saved in **Data**. So, go to the folder [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/) and download `3.Partitions15genes.txt` 
+For simplicity and to save time in this tutorial we will use a partitions file saved in **Data** . So, go to the folder [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/) and download `3.Partitions15genes.txt` 
 
 **Determine the best-fit model**
 
