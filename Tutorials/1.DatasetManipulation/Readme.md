@@ -79,11 +79,14 @@ Now pick an accession number from the list and hit search. If you like cheetahs 
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank2.png" alt="Genbank2" width="800"></p>
 
-Take a look at it. Try to decipher different parts of it. Now look at the 2 red rectangles on top of the picture. The one on the left where you can read ***GenBank*** is the format of the information. And the other rectangle ***Send to:*** create a downloadable file. Click on it. Choose ***Complete Record***, ***File*** under *Choose Destination* and finally in *format:* choose ***FASTA***. 
+Take a look at it. Try to decipher different parts of it. Now look at the 2 red rectangles on top of the picture. The one on the left where you can read ***GenBank*** is the format of the information. And the other rectangle "***Send to:***" create a downloadable file. Click on it. Choose ***Complete Record***, ***File*** under *Choose Destination* and finally in *format:* choose ***FASTA***. 
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank3.png" alt="Genbank3" width="800"></p>
 
-Now ***Create File***! And *Voila!* Congratulations, now you have downloaded your first Fasta file.
+Now ***Create File***! And *Voila!* Congratulations, now you have downloaded your first Fasta file. This fasta file is the sequence information of the whole mitochondrial genome of our nice cheetah sample (in the case you chose the first accession number). What we want to generate here is the alignment for only one gene of the mitochondrial genome, hte ***COI*** gene. Scroll down on the page to find the ***COI*** gene. It should look like this:
+
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank4.png" alt="Genbank4" width="800"></p>
+
 
 Now download all sequences for each gene separately. ***IMPORTANT TIP*** Do not download each accession number separately! Go to this link ([www.ncbi.nlm.nih.gov/sites/batchentrez](https://www.ncbi.nlm.nih.gov/sites/batchentrez)) and follow the instructions for a batch download ;) Also remember to change the name of your files to the name of their genes. Now you should have these 4 files:
 
