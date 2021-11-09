@@ -27,17 +27,17 @@ In this intense course we will introduce the basics of phylogenetics, covering b
 
 ## **Index**
 
-### [Course slides](../../tree/master/Lectures)
+### [Course slides](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Lectures/)
 
 Here we will upload all the files and information shared during the lectures!
 
 
-### [Data used in the course](../../tree/master/Data/)
+### [Data used in the course](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/)
 
 Here you will find the files we create during the course. (If at some point you are at a loss because your attempts to produce the results for the next step, here you can find the files you will need for next steps so you can keep up with the class.)
 
 
-### [Tutorials](../../tree/master/Tutorials/)
+### [Tutorials](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/)
 
 Here are deposited the instructions for the assignments and exercises.
 
