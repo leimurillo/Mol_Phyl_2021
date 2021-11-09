@@ -95,7 +95,13 @@ Now we need to download the ***COI*** (or ***COX1***) gene from the mitochondria
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank5.png" alt="Genbank5" width="800"></p>
 
+Then you should click on the "**FASTA**" (marked in the red rectangle in the picture above). If you do so you will see the fasta file of the marker we are interested in. You should see the following now:
 
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank6.png" alt="Genbank6" width="800"></p>
+
+This is the sequence we are interested in. *Do you remember how to download the sequence?* you have a reminder in the next picture...
+
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank7.png" alt="Genbank7" width="800"></p>
 
 Now download all sequences for each gene separately. ***IMPORTANT TIP*** Do not download each accession number separately! Go to this link ([www.ncbi.nlm.nih.gov/sites/batchentrez](https://www.ncbi.nlm.nih.gov/sites/batchentrez)) and follow the instructions for a batch download ;) Also remember to change the name of your files to the name of their genes. Now you should have these 4 files:
 
