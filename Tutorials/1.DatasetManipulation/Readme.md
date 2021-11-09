@@ -112,7 +112,7 @@ COI.fasta
 
 ---------
 
-Now lets take a look at the *FASTA* files we have created. Open any of them in your (prefered) text editor. (Here I have used TextWrangler!)
+Now lets take a look at the *FASTA* file we have created. Open any of them in your (prefered) text editor. (Here I have used TextWrangler!)
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/FastaFile.png" alt="FastaFile" width="800"></p>
 
