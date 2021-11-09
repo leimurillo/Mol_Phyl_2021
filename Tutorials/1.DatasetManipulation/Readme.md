@@ -89,6 +89,13 @@ Now ***Create File***! And *Voila!* Congratulations! Now you have downloaded you
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank4.png" alt="Genbank4" width="800"></p>
 
+As you can see in the red rectangle, the gene is marked as ***COX1*** and its position on the sequence is given (6060-7604). In the **CDS** section, which stands for **Coding Sequences**, you will see extra information about the gene. Try to decipher different parts of it. *Is there anything you dont understan? Ask! Why the tRNAs before and after does not have a **CDS** section?*
+
+Now we need to download the ***COI*** (or ***COX1***) gene from the mitochondrial whole genome entry. For this clisk on ***gene*** or ***CDS***. It should bring you to the end of the document and highlight the corresponding sequence on the whole genome sequence. You should see this:
+
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank5.png" alt="Genbank5" width="800"></p>
+
+
 
 Now download all sequences for each gene separately. ***IMPORTANT TIP*** Do not download each accession number separately! Go to this link ([www.ncbi.nlm.nih.gov/sites/batchentrez](https://www.ncbi.nlm.nih.gov/sites/batchentrez)) and follow the instructions for a batch download ;) Also remember to change the name of your files to the name of their genes. Now you should have these 4 files:
 
