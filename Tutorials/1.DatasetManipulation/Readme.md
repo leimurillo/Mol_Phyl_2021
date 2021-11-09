@@ -79,11 +79,13 @@ Now pick an accession number from the list and hit search. If you like cheetahs 
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank2.png" alt="Genbank2" width="800"></p>
 
-Take a look at it. Try to decipher different parts of it. Now look at the 2 red rectangles on top of the picture. The one on the left where you can read ***GenBank*** is the format of the information. And the other rectangle "***Send to:***" create a downloadable file. Click on it. Choose ***Complete Record***, ***File*** under *Choose Destination* and finally in *format:* choose ***FASTA***. 
+Take a look at it. Try to decipher different parts of it. As you see first you read the accession number, the lenght of the sequence and some information about the entry. in the following lines there is more information about the organism, the authors of the sequence, if it is published in any scientific publication, their authors and so on. in this case in the comments you can even see some information on how this genome has been sequenced (Illumina) and how it has been assembled (SOAPdenovo). After this, you can find the information on the annotation of the sequence. Here is where you look to find a gene of interest for example.
+
+Now look at the 2 red rectangles on top of the picture. The one on the left where you can read ***GenBank*** is the format of the information. And the other rectangle "***Send to:***" create a downloadable file. Click on it. Choose ***Complete Record***, ***File*** under *Choose Destination* and finally in *format:* choose ***FASTA***. 
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank3.png" alt="Genbank3" width="800"></p>
 
-Now ***Create File***! And *Voila!* Congratulations, now you have downloaded your first Fasta file. This fasta file is the sequence information of the whole mitochondrial genome of our nice cheetah sample (in the case you chose the first accession number). What we want to generate here is the alignment for only one gene of the mitochondrial genome, hte ***COI*** gene. Scroll down on the page to find the ***COI*** gene. It should look like this:
+Now ***Create File***! And *Voila!* Congratulations! Now you have downloaded your first Fasta file. This fasta file is the sequence information of the whole mitochondrial genome of our nice cheetah sample (in the case you chose the first accession number). What we want to generate here is the alignment for only one gene of the mitochondrial genome, hte ***COI*** gene. Scroll down on the page to find the ***COI*** gene. Remember that some genes could have different names. It should look like this:
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank4.png" alt="Genbank4" width="800"></p>
 
