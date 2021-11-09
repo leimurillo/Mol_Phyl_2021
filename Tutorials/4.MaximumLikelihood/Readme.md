@@ -3,7 +3,7 @@
 
 ## **IQTREE2** 
 
-In this tutorial, we will analyse the xxx dataset with one of the fastest maximum-likelihood based phylogenetic programs [IQ-TREE2](http://www.iqtree.org) ([Nguyen et al. 2015](https://academic.oup.com/mbe/article/32/1/268/2925592)). IQ-TREE2 for Windows, MacOSX and Linux can be downloaded [here](http://www.iqtree.org/#download), you can install it on your personal computer.
+In this tutorial, we will analyse the `15genes.phy` dataset with one of the fastest maximum-likelihood based phylogenetic programs [IQ-TREE2](http://www.iqtree.org) ([Nguyen et al. 2015](https://academic.oup.com/mbe/article/32/1/268/2925592)). IQ-TREE2 for Windows, MacOSX and Linux can be downloaded [here](http://www.iqtree.org/#download), you can install it on your personal computer.
 
 
 **Command line instructions and Tree inference**
@@ -37,7 +37,7 @@ iqtree2 funtion= will call the executable
 1. Now you can try to run a simple analysis by entering
 
 
-`iqtree2 -s file.phy` 
+`iqtree2 -s 15genes.phy` 
 
 
 IQTREE2 will infer a tree from a sequence alignment (file.phy) with the best-fit model automatically selected by ModelFinder.
@@ -46,9 +46,12 @@ IQTREE2 will infer a tree from a sequence alignment (file.phy) with the best-fit
 
 2. However, to find best partition scheme by possibly merging partitions, followed by tree inference and branches support run an analysis by entering
 
-`iqtree2 -s file.phy -p Partitions.txt -m MFP+MERGE -B 1000 -arlt 1000 -rcluster 10 -bnni`
+`iqtree2 -s 15genes.phy -p Partitions15genes.txt -m MFP+MERGE -B 1000 -arlt 1000 -rcluster 10 -bnni`
 
 
+You should have something similar to this:
+
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/3.MaximunLikelihood/ITREEb.png" alt="IQTREE2b" width="900"></p>
 
 **Congratulations! now that you have ran the analyses, compare the results.**
 
