@@ -5,11 +5,11 @@ In the first two tutorials you have learned to download various gene sequences f
 
 First remember that our final dataset, `15genes.fasta` was saved as a fasta format (If you did not manage to generate this file, go to ***Mol_Phyl_2021/Data/*** and download `3.15genes.fasta`). Now open *Aliview* and open this file. You should have something similar to this:
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/3.ModelSelection/Aliview3.png" alt="Aliview3" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/3.ModelSelection/Aliview3.png" alt="Aliview3" width="900"></p>
 
 Now I want you to save a \*.phy and a \.nex alignment file with the name **15genes**. Use the options "***Save as Nexus***" and "***Save as Phylip (full names & padded)***" as seen in the next picture (both options marked with a red rectangle):
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/3.ModelSelection/Aliview3.png" alt="Aliview5" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/3.ModelSelection/Aliview5.png" alt="Aliview5" width="900"></p>
 
 You should have these two files now:
 
@@ -18,15 +18,13 @@ You should have these two files now:
 15genes.nex
 ```
 
-For this tutorial we are going to use the `15genes.phy` and a command file that we are going to create together. 
+For substution model selection we are going to use the `15genes.phy` and a command file that we are going to create together. 
 
 **Choosing the right substitution model**
 
-In this tutorial we will use ModelFinder [Kalyaanamoorthy et al. 2017](https://www.nature.com/articles/nmeth.4285), implemented in IQTREE2, to determine the best-fit model. ModelFinder chooses the model that minimizes the BIC score (you can also change to AIC or AICc by adding the option -AIC or -AICc, respectively).
+We will use ModelFinder [Kalyaanamoorthy et al. 2017](https://www.nature.com/articles/nmeth.4285), implemented in IQTREE2, to determine the best-fit model. ModelFinder chooses the model that minimizes the BIC score (you can also change to AIC or AICc by adding the option -AIC or -AICc, respectively).
 
-But first, you have to prepare a partition file in NEXUS or RAxML-style format. 
-
-**Create partitions file**
+But first, you have to prepare a partition file either in NEXUS or RAxML-style format like the example below: 
 
 The RAxML-style partition file may look like:
 
@@ -45,9 +43,11 @@ begin sets;
 end;
 ```
 
+However, for this tutorial we will use a partitions file saved in ***Mol_Phyl_2021/Data/***. So, go to the folder ***Mol_Phyl_2021/Data/*** and download `3.Partitions15genes.txt` 
+
 **Determine the best-fit model**
 
-Once we created the parition file, go into IQTREE2 folder by entering in the terminal
+Once we have the parition file, go into IQTREE2 folder by entering in the terminal
 
 
 ``cd folder/iqtree-2.1.3-MacOSX`` (assuming you dowloaded iqtree-2.1.3-MacOSX, and only if iqtree executable was not copied into system search path).
@@ -56,18 +56,18 @@ Once we created the parition file, go into IQTREE2 folder by entering in the ter
 Then we use the following options:
 
 ```
-iqtree2 -s data.phy -p Partitions -m TESTMERGEONLY -rcluster 10
+iqtree2 -s 15genes.phy -p 3.Partitions15genes.txt -m TESTMERGEONLY -rcluster 10
 
 ```
 
-Here we are selecting the best-fit model for alignment `-s data.phy` by possibly merging partitions `-m TESTMERGEONLY` to reduce over-parameterization and increase model fit. We use a  partition file `-p Partitions` with relaxed clustering `-rcluster 10` at 10% to save time. These settings for model selection will only consider the invariable site and Gamma rate heterogeneity (thus saving computation time).
+Here we are selecting the best-fit model for the alignment `-s 15genes.phy` by possibly merging partitions `-m TESTMERGEONLY` to reduce over-parameterization and increase model fit. We use a  partition file `-p 3.Partitions15genes.txt` with relaxed clustering `-rcluster 10` at 10% to save time. These settings for model selection will only consider the invariable site and Gamma rate heterogeneity (thus saving computation time).
 
 
-But if you want to consider the FreeRate heterogeneity model then run:
+But if you want to consider a FreeRate heterogeneity model then run:
 
 
 ```
-iqtree2 -s data.phy -p Partitions -m MF+MERGE -rcluster 10
+iqtree2 -s 15genes.phy -p Partitions15genes.txt -m MF+MERGE -rcluster 10
 
 ```
 ModelFinder will implement a greedy strategy with full partition model, subsequentially merging genes and considering a FreeRate heterogeneity model.
@@ -76,7 +76,7 @@ Additionally, if you want to restrict model selection to only those model suppor
 
 
 ```
-iqtree2 -s data.phy -p Partitions -m TESTMERGEONLY -mset mrbayes -rcluster 10 
+iqtree2 -s 15genes.phy -p Partitions15genes.txt -m TESTMERGEONLY -mset mrbayes -rcluster 10 
 
 ```
 
