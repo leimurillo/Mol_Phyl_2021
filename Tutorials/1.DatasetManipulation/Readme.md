@@ -103,7 +103,9 @@ This is the sequence we are interested in. *Do you remember how to download the 
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank7.png" alt="Genbank7" width="800"></p>
 
-Now download all sequences for each gene separately. ***IMPORTANT TIP*** Do not download each accession number separately! Go to this link ([www.ncbi.nlm.nih.gov/sites/batchentrez](https://www.ncbi.nlm.nih.gov/sites/batchentrez)) and follow the instructions for a batch download ;) Also remember to change the name of your files to the name of their genes. Now you should have these 4 files:
+Now you need to download the ***COI*** sequence for every entry in the list. You could go on and download each of them in a separate file, but I suggest you to have a text file open in any text editor of your choice (no microsoft word though! Try something like TextWrangler for mac or Notepad++ for windows).
+
+Now download all sequences for each gene separately. 
 
 ```
 ATP6.fasta
