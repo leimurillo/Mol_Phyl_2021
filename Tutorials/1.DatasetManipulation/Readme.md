@@ -10,56 +10,56 @@ Using a web browser, you need to navigate to the NCBI’s Genbank. Even if the [
 
 | # | Accession Number | Organism name | 
 |---|---|---|
-| 1 | KP202271 | ***Acinonyx jubatus*** |
-| 2 | KP202272 | ***Caracal caracal*** |
-| 3 | KX265095 | ***Catopuma badia*** | 
-| 4 | KX265096 | ***Catopuma badia*** |
-| 5 | KP271500 | ***Catopuma temminckii*** |
-| 6 | FCU20753 | ***Felis catus*** | 
-| 7 | NC_028307 | ***Felis chaus*** |
-| 8 | KR132580 | ***Felis margarita*** | 
-| 9 | KP202277 | ***Felis nigripes*** | 
-| 10 | KP202273 | ***Felis silvestris bietis*** |
-| 11 | KP202275 | ***Felis silvestris lybica*** |
-| 12 | KP202282 | ***Leopardus colocolo*** | 
-| 13 | KP202292 | ***Leopardus geoffroyi*** | 
-| 14 | KP202293 | ***Leopardus guigna*** | 
-| 15 | KP202294 | ***Leopardus jacobita*** |
-| 16 | KP202284 | ***Leopardus pardalis*** |
-| 17 | KP202287 | ***Leopardus tigrinus*** | 
-| 18 | KP202288 | ***Leopardus tigrinus*** | 
-| 19 | KP202289 | ***Leopardus wiedii*** |
-| 20 | KP202286 | ***Leptailurus serval*** | 
-| 21 | KR132581 | ***Lynx	lynx*** |
-| 22 | KX911367 | ***Lynx	pardinus*** |
-| 23 | KP202285 | ***Lynx	rufus*** | 
-| 24 | DQ257669 | ***Neofelis	nebulosa*** | 
-| 25 | KP202291 | ***Neofelis	nebulosa*** | 
-| 26 | KP202295 | ***Otocolobus	manul***  | 
-| 27 | KC834784 | ***Panthera	leo persica*** |
-| 28 | KU234271 | ***Panthera	leo persica*** | 
-| 29 | KX258451 | ***Panthera	leo spelaea*** |
-| 30 | KX258452 | ***Panthera	leo spelaea*** |
-| 31 | KP001494 | ***Panthera	leo*** | 
-| 32 | KP001495 | ***Panthera	leo*** | 
-| 33 | KF483864 | ***Panthera	onca*** | 
-| 34 | KM236783 | ***Panthera	onca*** |
-| 35 | KKJ866876 | ***Panthera	pardus japonensis*** |
-| 36 | KP001507 | ***Panthera pardus*** | 
-| 37 | MH124079 | ***Panthera tigris altaica*** |
-| 38 | JF357972 | ***Panthera tigris corbetti*** |
-| 39 | JF357970 | ***Panthera tigris sumatrae*** |
-| 40 | KJ508413 | ***Panthera tigris*** |
-| 41 | EF551004 | ***Panthera uncia*** | 
-| 42 | KP202269 | ***Panthera uncia*** |
-| 43 | KP202263 | ***Pardofelis marmorata*** | 
-| 44 | KT288227 | ***Pardofelis marmorata*** | 
-| 45 | HM185183 | ***Prionailurus bengalensisa*** | 
-| 46 | KR135743 | ***Prionailurus planiceps*** |
-| 47 | KR135744 | ***Prionailurus rubiginosus*** | 
-| 48 | KR135742 | ***Prionailurus viverrinus*** | 
-| 49 | KP202261 | ***Puma concolor*** | 
-| 50 | KP202279 | ***Puma yagouaroundi*** |
+| 1 | KP202271 | *Acinonyx jubatus* |
+| 2 | KP202272 | *Caracal caracal* |
+| 3 | KX265095 | *Catopuma badia* | 
+| 4 | KX265096 | *Catopuma badia* |
+| 5 | KP271500 | *Catopuma temminckii* |
+| 6 | FCU20753 | *Felis catus* | 
+| 7 | NC_028307 | *Felis chaus* |
+| 8 | KR132580 | *Felis margarita* | 
+| 9 | KP202277 | *Felis nigripes* | 
+| 10 | KP202273 | *Felis silvestris bietis* |
+| 11 | KP202275 | *Felis silvestris lybica* |
+| 12 | KP202282 | *Leopardus colocolo* | 
+| 13 | KP202292 | *Leopardus geoffroyi* | 
+| 14 | KP202293 | *Leopardus guigna* | 
+| 15 | KP202294 | *Leopardus jacobita* |
+| 16 | KP202284 | *Leopardus pardalis* |
+| 17 | KP202287 | *Leopardus tigrinus* | 
+| 18 | KP202288 | *Leopardus tigrinus* | 
+| 19 | KP202289 | *Leopardus wiedii* |
+| 20 | KP202286 | *Leptailurus serval* | 
+| 21 | KR132581 | *Lynx	lynx* |
+| 22 | KX911367 | *Lynx	pardinus* |
+| 23 | KP202285 | *Lynx	rufus* | 
+| 24 | DQ257669 | *Neofelis	nebulosa* | 
+| 25 | KP202291 | *Neofelis	nebulosa* | 
+| 26 | KP202295 | *Otocolobus	manul*  | 
+| 27 | KC834784 | *Panthera	leo persica* |
+| 28 | KU234271 | *Panthera	leo persica* | 
+| 29 | KX258451 | *Panthera	leo spelaea* |
+| 30 | KX258452 | *Panthera	leo spelaea* |
+| 31 | KP001494 | *Panthera	leo* | 
+| 32 | KP001495 | *Panthera	leo* | 
+| 33 | KF483864 | *Panthera	onca* | 
+| 34 | KM236783 | *Panthera	onca* |
+| 35 | KKJ866876 | *Panthera	pardus japonensis* |
+| 36 | KP001507 | *Panthera pardus* | 
+| 37 | MH124079 | *Panthera tigris altaica* |
+| 38 | JF357972 | *Panthera tigris corbetti* |
+| 39 | JF357970 | *Panthera tigris sumatrae* |
+| 40 | KJ508413 | *Panthera tigris* |
+| 41 | EF551004 | *Panthera uncia* | 
+| 42 | KP202269 | *Panthera uncia* |
+| 43 | KP202263 | *Pardofelis marmorata* | 
+| 44 | KT288227 | *Pardofelis marmorata* | 
+| 45 | HM185183 | *Prionailurus bengalensisa* | 
+| 46 | KR135743 | *Prionailurus planiceps* |
+| 47 | KR135744 | *Prionailurus rubiginosus* | 
+| 48 | KR135742 | *Prionailurus viverrinus* | 
+| 49 | KP202261 | *Puma concolor* | 
+| 50 | KP202279 | *Puma yagouaroundi* |
 
 Pictures of the species used to generate the sequences above.
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Cats.png" alt="Cats" width="800"></p>
