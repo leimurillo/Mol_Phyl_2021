@@ -11,13 +11,13 @@ Open the link in a separate window. You should have something similar to this:
 
 <p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/MAFFT.png" alt="MAFFT" width="800"></p>
 
-In the above picture, you see 2 red rectangles. the first one is where you click to upload your fasta format file and the second rectangle is where you can write your email to receive the aligned sequences. Remember to click on `Submit`! 
+In the above picture, you see two red rectangles. the first one is where you click to upload your fasta format file and the second rectangle is where you can write your email to receive the aligned sequences. Remember to click on `Submit`! 
 
 Here I uploaded the `COI2.fasta` file. You should see something similar to this now:
 
 <p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/MAFFT2.png" alt="MAFFT2" width="800"></p>
 
-Here again I have marked 2 red rectangles. In the one on the top of the page you can read `Fasta format`. We will click here in a few seconds, but before I wanted to show you something else. In the second red rectangle you can see the name of your sequences. Do you see something interesting in the format of the names? *They are all maximum 15 character long!* Also, you can see that the sequences are *interleaved*. The last line is a measure of how preserved a column is in your alignment.
+Here again I have marked two red rectangles. In the one on the top of the page you can read `Fasta format`. We will click here in a few seconds, but before I wanted to show you something else. In the second red rectangle you can see the name of your sequences. Do you see something interesting in the format of the names? *They are all maximum 15 character long!* Also, you can see that the sequences are *interleaved*. The last line is a measure of how preserved a column is in your alignment.
 
 Ok, let's click on Fasta format now. You will see something like this:
 
@@ -35,9 +35,9 @@ Wingless_aligned.fasta
 
 ## Concatenation
 
-Concatenation of sequences means adding sequences from the same organism but from different genes one after another in order to create a larger dataset for the analysis as opposed to analysing single-gene datasets. There are many programs available for concatenatenation of sequences. You can even concatenate your sequences with a text editor or using a few comands in any programming language if you feel confortable with it. Here we are going to use an online application.
+Concatenation of sequences means adding sequences from the same organism but from different genes one after another in order to create a larger dataset for the analysis as opposed to analysing single-gene datasets. There are many programs available for concatenation of sequences. You can even concatenate your sequences with a text editor or using a few comands in any programming language if you feel confortable with it. Here we are going to use an online application.
 
-[FaBox (1.5) - an online fasta sequence toolbox] (http://users-birc.au.dk/palle/php/fabox/index.php) is a useful online tool for simple tasks using fasta files. The webpage is developed by Aarhus University. Open the link on a new page. You should see something like this:
+[FaBox (1.5) - an online fasta sequence toolbox] (http://users-birc.au.dk/palle/php/fabox/index.php) is a useful online tool for simple tasks using fasta files. The webpage is developed by Aarhus University. Open the link in a new page. You should see something like this:
 
 <p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/Concat.png" alt="Concat" width="800"></p>
 
@@ -67,7 +67,7 @@ where you find the correct value for `X` and `Y`. Now that you have the alignmen
 
 <p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/Aliview4.png" alt="Aliview4" width="800"></p>
 
-We want to write down the codon positions for each *partition* of our dataset. To find the correct reading frame and therefore the codon positions you can click on the button in the red rectangle on top left. Then you change the reading frame to find the one which has no stop codons in the alignment using the second red rectangle. *Do you know why?*  Also pay attention to the third red rectangle. In the picture we have the alignment of the *Wingless* gene. It is a protein coding nuclear gene, so the `Standard code` is the right option. But what about the *COI* gene?
+We want to write down the codon positions for each *partition* of our dataset. To find the correct reading frame and therefore the codon positions you can click on the button in the red rectangle on top left. Then you change the reading frame to find the one which has no stop codons in the alignment using the second red rectangle. *Do you know why?*  Also pay attention to the third red rectangle. In the picture we have the alignment of the *Wingless* gene. It is a protein-coding nuclear gene, so the `Standard code` is the right option. But what about the *COI* gene?
 
 To gain some time I will copy here how you should write down the codon positions for the partition file:
 
