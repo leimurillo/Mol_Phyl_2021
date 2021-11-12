@@ -6,7 +6,7 @@ In this section we will learn to download genetic sequence information from onli
 
 ## **Download the data**
 
-Using a web browser, you need to navigate to the NCBI’s Genbank. Even if the [link]( https://www.ncbi.nlm.nih.gov/genbank/) is not easy to remember, googling basically any keyword combination containing Genbank will bring you to the NCBI quite easily. In Genbank each sequence entry has a unique identification code called ***accession number***. For this exercise, you need to download the sequences from few genes of the following accession numbers which correspond to mitochondrial genome entries.
+Using a web browser, you need to navigate to the NCBI’s Genbank. Even if the [link]( https://www.ncbi.nlm.nih.gov/genbank/) is not easy to remember, googling basically any keyword combination containing Genbank will bring you to the NCBI quite easily. In Genbank each sequence entry has a unique identification code called ***accession number***. For this exercise, you need to download the sequences from several genes with the following accession numbers which correspond to mitochondrial genome entries.
 
 | # | Accession Number | Organism name | 
 |---|---|---|
