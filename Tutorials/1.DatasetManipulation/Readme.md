@@ -73,29 +73,29 @@ Opening the [link]( https://www.ncbi.nlm.nih.gov/genbank/) provided earlier you 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank1.png" alt="Genbank1" width="800"></p>
 
 
-In the red rectangle you see a list option which should be on ***Nucleotide***. Clicking on the list you can see other repositories offered by NCBI website. Here we are going to create a dataset of nucleotide sequences of protein coding genes, so we chose the ***Nucleotide*** option. Remember that these markers being protein coding genes, allow us to create also ***Amino Acid*** datasets. *Do you know why we stay with nucleotides in this case? Wich option allows you to create an amino acid dataset?*
+In the red rectangle you see a list option which should be on ***Nucleotide***. Clicking on the list you can see other repositories offered by the NCBI website. Here we are going to create a dataset of nucleotide sequences of protein-coding genes, so we choose the ***Nucleotide*** option. Remember that these markers being protein-coding genes allows us to create also ***Amino Acid*** datasets. *Do you know why we stay with nucleotides in this case? Wich option allows you to create an amino acid dataset?*
 
 Now pick an accession number from the list and hit search. If you like cheetahs (and you choose the first accession number in the list) you should see something similar to this picture:
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank2.png" alt="Genbank2" width="800"></p>
 
-Take a look at it. Try to decipher different parts of it. As you see first you read the accession number, the lenght of the sequence and some information about the entry. in the following lines there is more information about the organism, the authors of the sequence, if it is published in any scientific publication, their authors and so on. in this case in the comments you can even see some information on how this genome has been sequenced (Illumina) and how it has been assembled (SOAPdenovo). After this, you can find the information on the annotation of the sequence. Here is where you look to find a gene of interest for example.
+Take a look at it. Try to decipher different parts of it. As you can see, first you read the accession number, the lenght of the sequence and some information about the entry. in the following lines there is more information about the organism, the authors of the sequence, if it is published in any scientific publication, their authors and so on. in this case in the comments you can even see some information on how this genome has been sequenced (Illumina) and how it has been assembled (SOAPdenovo). After this, you can find the information on the annotation of the sequence. Here is where you look to find a gene of interest for example.
 
-Now look at the 2 red rectangles on top of the picture. The one on the left where you can read ***GenBank*** is the format of the information. And the other rectangle "***Send to:***" create a downloadable file. Click on it. Choose ***Complete Record***, ***File*** under *Choose Destination* and finally in *format:* choose ***FASTA***. 
+Now look at the two red rectangles on top of the picture. The one on the left where you can read ***GenBank*** is the format of the information. And the other rectangle "***Send to:***" creates a downloadable file. Click on it. Choose ***Complete Record***, ***File*** under *Choose Destination* and finally in *format:* choose ***FASTA***. 
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank3.png" alt="Genbank3" width="800"></p>
 
-Now ***Create File***! And *Voila!* Congratulations! Now you have downloaded your first Fasta file. This fasta file is the sequence information of the whole mitochondrial genome of our nice cheetah sample (in the case you chose the first accession number). What we want to generate here is the alignment for only one gene of the mitochondrial genome, hte ***COI*** gene. Scroll down on the page to find the ***COI*** gene. Remember that some genes could have different names. It should look like this:
+Now ***Create File***! And *Voila!* Congratulations! Now you have downloaded your first Fasta file. This fasta file is the sequence information of the whole mitochondrial genome of our nice cheetah sample (in the case you chose the first accession number). What we want to generate here is the alignment for only one gene of the mitochondrial genome, the ***COI*** gene. Scroll down on the page to find the ***COI*** gene. Remember that some genes could have different names. It should look like this:
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank4.png" alt="Genbank4" width="800"></p>
 
-As you can see in the red rectangle, the gene is marked as ***COX1*** and its position on the sequence is given (6060-7604). In the **CDS** section, which stands for **Coding Sequences**, you will see extra information about the gene. Try to decipher different parts of it. *Is there anything you dont understan? Ask! Why the tRNAs before and after does not have a **CDS** section?*
+As you can see in the red rectangle, the gene is marked as ***COX1*** and its position on the sequence is given (6060-7604). In the **CDS** section, which stands for **Coding Sequences**, you will see extra information about the gene. Try to decipher different parts of it. *Is there anything you don't understand? Ask! Why the tRNAs before and after don't have a **CDS** section?*
 
-Now we need to download the ***COI*** (or ***COX1***) gene from the mitochondrial whole genome entry. For this clisk on ***gene*** or ***CDS***. It should bring you to the end of the document and highlight the corresponding sequence on the whole genome sequence. You should see this:
+Now we need to download the ***COI*** (or ***COX1***) gene from the mitochondrial whole genome entry. For this clisk on ***gene*** or ***CDS***. It should bring you to the end of the document and highlight the corresponding sequence in the whole genome sequence. You should see this:
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank5.png" alt="Genbank5" width="800"></p>
 
-Then you should click on the "**FASTA**" (marked in the red rectangle in the picture above). If you do so you will see the fasta file of the marker we are interested in. You should see the following now:
+Then you should click on the "**FASTA**" (marked in the red rectangle in the picture above). If you do so, you will see the fasta file of the marker we are interested in. You should see the following now:
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank6.png" alt="Genbank6" width="800"></p>
 
@@ -103,7 +103,7 @@ This is the sequence we are interested in. *Do you remember how to download the 
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Genbank7.png" alt="Genbank7" width="800"></p>
 
-Now you need to download the ***COI*** sequence for every entry in the list. You could go on and download each of them in a separate file, but I suggest you to have a text file open in any text editor of your choice (no microsoft word though! Try something like TextWrangler for mac or Notepad++ for windows), Copy and paste each fasta into it. Save this file as:
+Now you need to download the ***COI*** sequence for every entry in the list. You could go on and download each of them in a separate file, but I suggest you have a text file open in any text editor of your choice (no Microsoft Word though! Try something like TextWrangler for Mac or Notepad++ for Windows), copy and paste each fasta into it. Save this file as:
 
 
 ```
@@ -112,7 +112,7 @@ COI.fasta
 
 ---------
 
-Now lets take a look at the *FASTA* file we have created. Open any of them in your (prefered) text editor. (Here I have used TextWrangler!)
+Now let's take a look at the *FASTA* file we have created. Open any of them in your (prefered) text editor. (Here I have used TextWrangler!)
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/FastaFile.png" alt="FastaFile" width="800"></p>
 
@@ -186,17 +186,17 @@ Cytb.fasta
 ND5.fasta
 ```
 
-Now we can proceed to the next tutorial to learn about Alignment Methods. But before lets take a look at our sequence files in a graphical interface specifically designed to visualize sequences and alignments, ***Aliview***.
+Now we can proceed to the next tutorial to learn about Alignment Methods. But first let's take a look at our sequence files in a graphical interface specifically designed to visualize sequences and alignments, ***Aliview***.
 
 Open the program, click on file, Open File and find any of the last fasta files you have created, for example `Wingless2.fasta`. You should see something like this.
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021//blob/main/Tutorials/1.DatasetManipulation/Aliview.png" alt="Aliview" width="800"></p>
 
-Before moving on, consider what this file looks like. Very few sites look  ***aligned***, right? This a quite small dataset of relatively conserved sequences, so you can easily find patterns within the file and you should be able to align it by hand given enough time with no major problems. We will check our alignment once we obtain it in this program again.
+Before moving on, consider what this file looks like. Very few sites look  ***aligned***, right? This is a quite small dataset of relatively conserved sequences, so you can easily find patterns within the file and you should be able to align it by hand given enough time with no major problems. We will check our alignment once we obtain it in this program again.
 
 Now if you click again on `File` you will see something like this:
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021//blob/main/Tutorials/1.DatasetManipulation/Aliview2.png" alt="Aliview2" width="500"></p>
 
-As you can see this program allow us to convert/save a sequence file in many different formats which can be used in different programs. Remember this for when we are going to convert the alignment to other file formats than fasta.
+As you can see, this program allows us to convert/save a sequence file in many different formats which can be used in different programs. Remember this for when we are going to convert the alignment to other file formats than fasta.
 
