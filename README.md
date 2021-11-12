@@ -9,7 +9,7 @@ In this intense course we will introduce the basics of phylogenetics, covering b
 
 ## **Program**
 
-**Location:** Where, Where Building, Where, 223 62 Lund
+**Location:** Retina D227, Biology Building, Lund University, Sölvegatan 35, 223 62 Lund
 
 
 | Hours\Days | 15th | 16th | 17th |
@@ -34,7 +34,7 @@ Here we will upload all the files and information shared during the lectures!
 
 ### [Data used in the course](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/)
 
-Here you will find the files we create during the course. (If at some point you are at a loss because your attempts to produce the results for the next step, here you can find the files you will need for next steps so you can keep up with the class.)
+Here you will find the files we create during the course. (If at some point you are at a loss because your attempts to produce the results for the next step failed, here you can find the files you will need so you can keep up with the class.)
 
 
 ### [Tutorials](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/)
