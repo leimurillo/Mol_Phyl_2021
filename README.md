@@ -59,7 +59,7 @@ Here are deposited the instructions for the assignments and exercises.
 Here you can find a list of the programs we are going to use and links to where you can download them.
  
  * **Text Editors:**
-   	- **TextWrangler** for Mac users
+   	- **TextWrangler** (older versions) or **BBEdit** for Mac users
    	- **Notepad++** for Windows users
    	- **Linux** users not covered
 
