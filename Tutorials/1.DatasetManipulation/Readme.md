@@ -60,6 +60,8 @@ Using a web browser, you need to navigate to the NCBI’s Genbank. Even if the [
 | 48 | KR135742 | *Prionailurus viverrinus* | 
 | 49 | KP202261 | *Puma concolor* | 
 | 50 | KP202279 | *Puma yagouaroundi* |
+| OUTGROUPS |
+| 51 | KP202279 | *Puma yagouaroundi* |
 
 Pictures of the species used to generate the sequences above.
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Cats.png" alt="Cats" width="800"></p>
