@@ -23,7 +23,7 @@ Ok, let's click on Fasta format now. You will see something like this:
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/2.Alignments/MAFFT3.png" alt="MAFFT3" width="800"></p>
 
-Again *Voila*! You have your COI sequences aligned in the fasta format. Copy this and paste it in your text editor program. Save it as `COI_aligned.fasta`. 
+Again *Voila*! You have your COI sequences aligned in the fasta format. Copy this and paste it in your text editor program. Save it as `COIaligned.fasta`. 
 
 
 
@@ -55,11 +55,11 @@ Please click on the only option which is red (*Fasta alignment joiner*). You sho
 
 <p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/Concat2.png" alt="Concat2" width="800"></p>
 
-Choose your `COI_aligned.fasta` file on the left and the `EF1a_aligned.fasta` file on the right. You should have something like this now:
+Choose the `2.ATP6.fasta` file on the left and your `COIaligned.fasta` file on the right. You should have something like this now:
 
 <p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/Concat3.png" alt="Concat3" width="800"></p>
 
-Now click on *Save to disk* and save the `alignment.fasta` file on your computer. Rename this file to `COI_EF1a.fasta`. Remember that you can also just copy/paste the sequence directly from your browser and save them in your text editor. Now repeat the concatenation procedure and create the `COI_EF1a_Wingless.fasta` file.
+Now click on *`Save to disk`* and save the `alignment.fasta` file on your computer. Rename this file to `COI_EF1a.fasta`. Remember that you can also just copy/paste the sequence directly from your browser and save them in your text editor. Now repeat the concatenation procedure and create the `COI_EF1a_Wingless.fasta` file.
 
 Open Aliview and open the file you just created in it. You should see something like this:
 
