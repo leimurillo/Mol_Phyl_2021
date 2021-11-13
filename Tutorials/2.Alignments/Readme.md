@@ -13,9 +13,9 @@ Open the link in a separate window. You should have something similar to this:
 
 In the above picture, you see two red rectangles. the first one is where you click to upload your fasta format file and the second rectangle is where you can write your email to receive the aligned sequences. Remember to click on `Submit`! 
 
-Here I uploaded the `COI2.fasta` file. You should see something similar to this now:
+Here I uploaded the `COI.fasta` file. You should see something similar to this now:
 
-<p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/MAFFT2.png" alt="MAFFT2" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/2.Alignments/MAFFT2.png" alt="MAFFT2" width="800"></p>
 
 Here again I have marked two red rectangles. In the one on the top of the page you can read `Fasta format`. We will click here in a few seconds, but before I wanted to show you something else. In the second red rectangle you can see the name of your sequences. Do you see something interesting in the format of the names? *They are all maximum 15 character long!* Also, you can see that the sequences are *interleaved*. The last line is a measure of how preserved a column is in your alignment.
 
