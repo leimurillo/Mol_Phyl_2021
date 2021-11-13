@@ -25,8 +25,11 @@ Ok, let's click on Fasta format now. You will see something like this:
 
 Again *Voila*! You have your COI sequences aligned in the fasta format. Copy this and paste it in your text editor program. Save it as `COIaligned.fasta`. 
 
+Now open the `COIaligned.fasta` file in **Aliview**. *How does it look? Does it look more "aligned" than what you had before?* You should see something like this now:
 
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/2.Alignments/Aliview3.png" alt="Aliview3" width="800"></p>
 
+*Is there anything in the alignment which catch your attention?* 
 
 We need to repeat the same steps since the beginning for *ATP6*, *Cytb* and *ND5* genes. But to save some time I have already prepared these files for you, go to [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/) and download the following files: 
 
