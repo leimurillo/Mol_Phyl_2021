@@ -66,7 +66,7 @@ Now click on *`Save to disk`* and save the `alignment.fasta` file on your comput
 
 Open Aliview and open the file you just created in it. You should see something like this:
 
-<p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/Aliview3.png" alt="Aliview3" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/2.Alignments/Aliview3.png" alt="Aliview3" width="800"></p>
 
 So now we have an alignment of 4 concatenated genes in a single alignment file. But what we don't see immediately in this "*Super Gene*" alignment is where each gene starts and ends in the alignment. One way to obtain this information is to open each gene's alignment `2.ATP6.fasta`, `COIaligned.fasta`, `2.CYTB.fasta` and `2.ND5.fasta` in *Aliview* and look at their lengths. In our concatenated matrix we know the order of the genes...  so you can obtain the position of each gene easily. I want you to create a file in your text editor called `partitions.txt` and write down the information of each gene as:
 
@@ -79,7 +79,7 @@ ND5 = Z+1 - 5196;
 
 *What are the correct values for `X`, `Y` and `Z`?* Replace the correct values and save your file. Now that you have the alignments open in *Aliview*, I want you to pay atention to the codon positions. Look at the following picture:
 
-<p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/Aliview4.png" alt="Aliview4" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/2.Alignments/Aliview3.png" alt="Aliview3" width="800"></p>
 
 We want to write down the codon positions for each *partition* of our dataset. To find the correct reading frame and therefore the codon positions you can click on the button in the red rectangle on top left. Then you change the reading frame to find the one which has no stop codons in the alignment using the second red rectangle. *Do you know why?*  Also pay attention to the third red rectangle. In the picture we have the alignment of the *Wingless* gene. It is a protein-coding nuclear gene, so the `Standard code` is the right option. But what about the *COI* gene?
 
