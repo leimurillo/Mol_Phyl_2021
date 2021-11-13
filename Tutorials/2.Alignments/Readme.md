@@ -59,21 +59,22 @@ Choose the `2.ATP6.fasta` file on the left and your `COIaligned.fasta` file on t
 
 <p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/Concat3.png" alt="Concat3" width="800"></p>
 
-Now click on *`Save to disk`* and save the `alignment.fasta` file on your computer. Rename this file to `COI_EF1a.fasta`. Remember that you can also just copy/paste the sequence directly from your browser and save them in your text editor. Now repeat the concatenation procedure and create the `COI_EF1a_Wingless.fasta` file.
+Now click on *`Save to disk`* and save the `alignment.fasta` file on your computer. Rename this file to `ATP&_COI.fasta`. Remember that you can also just copy/paste the alignment directly from your browser and save it in your text editor. Now repeat the concatenation procedure and create the `ATP6_COI_CYTB_ND5.fasta` file using the files you downloaded from [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/).
 
 Open Aliview and open the file you just created in it. You should see something like this:
 
 <p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/Aliview3.png" alt="Aliview3" width="800"></p>
 
-So now we have the 3 genes concatenated in a single sequence alignment file. But what we don't see immediately in this "*Super Gene*" alignment is where each gene starts and ends in the alignment. One way to obtain this information is to open each gene's alignment `COI_aligned.fasta`, `EF1a_aligned.fasta` and `Wingless_aligned.fasta` in *Aliview* and look at their lengths. In our concatenated matrix we know the order of the genes...  so you can obtain the position of each gene easily. I want you to create a file in your text editor called `partitions.txt` and write down the information of each gene as:
+So now we have an alignment of 4 concatenated genes in a single alignment file. But what we don't see immediately in this "*Super Gene*" alignment is where each gene starts and ends in the alignment. One way to obtain this information is to open each gene's alignment `2.ATP6.fasta`, `COIaligned.fasta`, `2.CYTB.fasta` and `2.ND5.fasta` in *Aliview* and look at their lengths. In our concatenated matrix we know the order of the genes...  so you can obtain the position of each gene easily. I want you to create a file in your text editor called `partitions.txt` and write down the information of each gene as:
 
 ```
-COI = 1 - X;
-EF1a = X+1 - Y;
-Wingless = Y+1 - 3113;
+ATP6 = 1 - X;
+COI = X+1 - Y;
+CYTB = Y+1 - Z;
+ND5 = Z+1 - 5196;
 ```
 
-where you find the correct value for `X` and `Y`. Now that you have the alignments open in *Aliview*, I want you to pay atention to the codon positions. Look at the following picture:
+*What are the correct values for `X`, `Y` and `Z`?* Replace the correct values and save your file. Now that you have the alignments open in *Aliview*, I want you to pay atention to the codon positions. Look at the following picture:
 
 <p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/Aliview4.png" alt="Aliview4" width="800"></p>
 
