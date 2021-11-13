@@ -21,21 +21,14 @@ Here again I have marked two red rectangles. In the one on the top of the page y
 
 Ok, let's click on Fasta format now. You will see something like this:
 
-<p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/MAFFT3.png" alt="MAFFT3" width="600"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/2.Alignments/MAFFT3.png" alt="MAFFT3" width="800"></p>
 
 Again *Voila*! You have your COI sequences aligned in the fasta format. Copy this and paste it in your text editor program. Save it as `COI_aligned.fasta`. 
 
-Repeat this exercise for the other 2 genes. At the end you should have these 3 files:
-
-```
-COI_aligned.fasta
-EF1a_aligned.fasta
-Wingless_aligned.fasta
-```
 
 
 
-We need to repeat the same steps for *ATP6*, *Cytb* and *ND5* genes. But to save some time I have already prepared these files for you, go to [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/) and download the following files: 
+We need to repeat the same steps since the beginning for *ATP6*, *Cytb* and *ND5* genes. But to save some time I have already prepared these files for you, go to [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/) and download the following files: 
 
 
 ```
