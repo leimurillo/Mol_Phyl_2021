@@ -114,7 +114,7 @@ COI.fasta
 
 Now let's take a look at the *FASTA* file we have created. Open any of them in your (prefered) text editor. (Here I have used TextWrangler!)
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/FastaFile.png" alt="FastaFile" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Fastafile.png" alt="Fastafile" width="800"></p>
 
 As you can see, each entry is something similar to this:
 
