@@ -47,7 +47,7 @@ We need to repeat the same steps since the beginning for *ATP6*, *Cytb* and *ND5
 
 Concatenation of sequences means adding sequences from the same organism but from different genes one after another in order to create a larger dataset for the analysis as opposed to analysing single-gene datasets. There are many programs available for concatenation of sequences. You can even concatenate your sequences with a text editor or using a few comands in any programming language if you feel confortable with it. Here we are going to use an online application.
 
-[FaBox (1.5) - an online fasta sequence toolbox] (http://users-birc.au.dk/palle/php/fabox/index.php) is a useful online tool for simple tasks using fasta files. The webpage is developed by Aarhus University. Open the link in a new page. You should see something like this:
+[FaBox (1.5) - an online fasta sequence toolbox](http://users-birc.au.dk/palle/php/fabox/index.php) is a useful online tool for simple tasks using fasta files. The webpage is developed by Aarhus University. Open the link in a new page. You should see something like this:
 
 <p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/Concat.png" alt="Concat" width="800"></p>
 
