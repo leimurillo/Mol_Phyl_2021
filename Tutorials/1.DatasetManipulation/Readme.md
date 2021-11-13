@@ -151,7 +151,7 @@ AATCTTGAGTGATTACATGGATGTCCCCCTCCGTATCACACATTTGAAGAGCCAACTTATGTATTACTAA
 AATAA
 ```
 
-The line starting with `>` in a fasta file is a header for the sequence. Practically all programs will have problems with how Genbank have created these fasta files. So in your text editor go and modify the name of each sequence to keep only the organism name. Remember that an empty space is not allowed in the name! Replace it with an underscore `_`. You should have exactly the same header as bellow now. Pay attention to this step, as it is really important to have the exact same header for each sequence because this needs to be the exact same for every gene.
+The line starting with `>` in a fasta file is a header for the sequence. Practically all programs will have problems with how Genbank have created these fasta files. So in your text editor go and modify the name of each sequence to keep only the accesion number and organism name. Remember that an empty space is not allowed in the name! Replace it with an underscore `_`. You should have exactly the same header as bellow now. Pay attention to this step, as it is really important to have the exact same header for each sequence because this needs to be the exact same for every gene. Save your file as `COI.fasta`. 
 
 
 ```
@@ -182,19 +182,9 @@ AATAA
 
 ```
 
-Now save the files adding `2` after the name of the genes. You should have the following files now:
-
-
-```
-ATP6.fasta
-COI.fasta
-Cytb.fasta
-ND5.fasta
-```
-
 Now we can proceed to the next tutorial to learn about Alignment Methods. But first let's take a look at our sequence files in a graphical interface specifically designed to visualize sequences and alignments, ***Aliview***.
 
-Open the program, click on file, Open File and find any of the last fasta files you have created, for example `Wingless2.fasta`. You should see something like this.
+Open the program, click on *file*, *Open File* and find the fasta files you have created, `COI.fasta`. You should see something like this.
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021//blob/main/Tutorials/1.DatasetManipulation/Aliview.png" alt="Aliview" width="800"></p>
 
@@ -205,4 +195,3 @@ Now if you click again on `File` you will see something like this:
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021//blob/main/Tutorials/1.DatasetManipulation/Aliview2.png" alt="Aliview2" width="500"></p>
 
 As you can see, this program allows us to convert/save a sequence file in many different formats which can be used in different programs. Remember this for when we are going to convert the alignment to other file formats than fasta.
-
