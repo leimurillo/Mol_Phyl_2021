@@ -9,7 +9,7 @@ From the first tutorial you have learned how to download data from Genbank, how 
 
 Open the link in a separate window. You should have something similar to this:
 
-<p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/MAFFT.png" alt="MAFFT" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/2.Alignments/MAFFT.png" alt="MAFFT" width="800"></p>
 
 In the above picture, you see two red rectangles. the first one is where you click to upload your fasta format file and the second rectangle is where you can write your email to receive the aligned sequences. Remember to click on `Submit`! 
 
@@ -39,9 +39,9 @@ We need to repeat the same steps for *ATP6*, *Cytb* and *ND5* genes. But to save
 
 
 ```
-1.ATP6.fasta
-1.Cytb.fasta
-1.ND5.fasta
+2.ATP6.fasta
+2.Cytb.fasta
+2.ND5.fasta
 ```
 
 
