@@ -29,7 +29,15 @@ Now open the `COIaligned.fasta` file in **Aliview**. *How does it look? Does it 
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/2.Alignments/Aliview3.png" alt="Aliview3" width="800"></p>
 
-*Is there anything in the alignment which catch your attention?* 
+*Is there anything in the alignment which catch your attention?* For example something like what I've placed in the red rectangle! As you see practically all the sequences start with a methionine which is coded by *"ATG"*. But 5 sequences look to have a small sequence in the beginning before the start codon. There could be various possibilities for such pattern but here the most probable cause should be an error in the annotation of the mitochondrial genome. We will proceed and delete the 9 first columns of the alignment. Select all the positions, click on `Edit` and choose the `Delete selected` option.
+
+Now scroll and check the rest of the alignment and see if there is any other problem in the alignment. Visualizing an alignment like this is very complicated and a receipe for errors. Try to use the visualizing options you have in **Aliview**. For example if you click on the `Translate nucleotide sequence to Amino Acids`, which is the one marcked with the red rectangle in the following picture, you should see this:
+
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/2.Alignments/Aliview4.png" alt="Aliview4" width="800"></p>
+
+As you see, the majority of the changes in the nucleotide level do not change the corresponding amino acid. This is called a **Synonymous Mutation** as you have probably guessed. Now scroll towards the end of the alignment, at some point the number of non synonymous changes suddenly increases. *Can you find the reason? What do you see in the column `1347`?* It should be something like this:
+
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/2.Alignments/Aliview5.png" alt="Aliview5" width="800"></p>
 
 We need to repeat the same steps since the beginning for *ATP6*, *Cytb* and *ND5* genes. But to save some time I have already prepared these files for you, go to [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/) and download the following files: 
 
@@ -79,7 +87,7 @@ ND5 = Z+1 - 5196;
 
 *What are the correct values for `X`, `Y` and `Z`?* Replace the correct values and save your file. Now that you have the alignments open in *Aliview*, I want you to pay atention to the codon positions. Look at the following picture:
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/2.Alignments/Aliview3.png" alt="Aliview3" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/2.Alignments/Aliview4.png" alt="Aliview4" width="800"></p>
 
 We want to write down the codon positions for each *partition* of our dataset. To find the correct reading frame and therefore the codon positions you can click on the button in the red rectangle on top left. Then you change the reading frame to find the one which has no stop codons in the alignment using the second red rectangle. *Do you know why?*  Also pay attention to the third red rectangle. In the picture we have the alignment of the *Wingless* gene. It is a protein-coding nuclear gene, so the `Standard code` is the right option. But what about the *COI* gene?
 
