@@ -61,7 +61,11 @@ Using a web browser, you need to navigate to the NCBI’s Genbank. Even if the [
 | 49 | KP202261 | *Puma concolor* | 
 | 50 | KP202279 | *Puma yagouaroundi* |
 | | OUTGROUPS | |
-| 51 | KP202279 | *Puma yagouaroundi* |
+| 51 | KY117547 | *Herpestes brachyurus hosei* |
+| 52 | MW019668 | *Herpestes ichneumon* |
+| 53 | MW257235 | *Herpestes naso* |
+| 54 | AY873843 | *Urva javanica* |
+| 55 | JF894376 | *Hyaena hyaena* |
 
 Pictures of the species used to generate the sequences above.
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Cats.png" alt="Cats" width="800"></p>
