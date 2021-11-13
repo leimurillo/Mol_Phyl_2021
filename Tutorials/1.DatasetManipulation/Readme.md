@@ -186,12 +186,12 @@ Now we can proceed to the next tutorial to learn about Alignment Methods. But fi
 
 Open the program, click on *file*, *Open File* and find the fasta files you have created, `COI.fasta`. You should see something like this.
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Aliview.png" alt="Aliview" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Aliview.png" alt="Aliview" width="900"></p>
 
 Before moving on, consider what this file looks like. Very few sites look  ***aligned***, right? This is a quite small dataset of relatively conserved sequences, so you can easily find patterns within the file and you should be able to align it by hand given enough time with no major problems. We will check our alignment once we obtain it in this program again.
 
 Now if you click again on `File` you will see something like this:
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Aliview2.png" alt="Aliview2" width="500"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Aliview2.png" alt="Aliview2" width="800"></p>
 
 As you can see, this program allows us to convert/save a sequence file in many different formats which can be used in different programs. Remember this for when we are going to convert the alignment to other file formats than fasta.
