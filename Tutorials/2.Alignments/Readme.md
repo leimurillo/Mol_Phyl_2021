@@ -33,6 +33,23 @@ EF1a_aligned.fasta
 Wingless_aligned.fasta
 ```
 
+
+
+We need to repeat the same steps for *ATP6*, *Cytb* and *ND5* genes. But to save some time I have already prepared these files for you, go to [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/) and download the following files: 
+
+
+```
+1.ATP6.fasta
+1.Cytb.fasta
+1.ND5.fasta
+```
+
+
+
+
+
+
+
 ## Concatenation
 
 Concatenation of sequences means adding sequences from the same organism but from different genes one after another in order to create a larger dataset for the analysis as opposed to analysing single-gene datasets. There are many programs available for concatenation of sequences. You can even concatenate your sequences with a text editor or using a few comands in any programming language if you feel confortable with it. Here we are going to use an online application.
@@ -84,5 +101,6 @@ Wingless_pos3 = 2693 - 3113\3;
 ```
 
 Copy/Paste this in your text editor and save it as `partitionsCodons.txt`. Now we are ready to find out which partitioning scheme is best for our dataset in the next tutorial.
+
 
 
