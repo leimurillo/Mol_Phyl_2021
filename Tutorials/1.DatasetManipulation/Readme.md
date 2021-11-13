@@ -184,7 +184,7 @@ AATAA
 
 Now we can proceed to the next tutorial to learn about Alignment Methods. But first let's take a look at our sequence files in a graphical interface specifically designed to visualize sequences and alignments, ***Aliview***.
 
-Open the program, click on *file*, *Open File* and find the fasta files you have created, `COI.fasta`. You should see something like this.
+Open the program, click on `*file*`, `*Open File*` and find the fasta files you have created, `COI.fasta`. You should see something like this.
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/1.DatasetManipulation/Aliview.png" alt="Aliview" width="900"></p>
 
