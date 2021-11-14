@@ -46,7 +46,7 @@ IQTREE2 will infer a tree from a sequence alignment (file.phy) with the best-fit
 
 2. However, to find best partition scheme by possibly merging partitions, followed by tree inference and branches support run an analysis by entering
 
-`iqtree2 -s 15genes.phy -p Partitions15genes.txt -m MFP+MERGE -B 1000 -arlt 1000 -rcluster 10 -bnni`
+`iqtree2 -s 15genes.phy -p 3.Partitions15genes.txt -m MFP+MERGE -B 1000 -arlt 1000 -rcluster 10 -bnni`
 
 
 You should have something similar to this:
@@ -87,10 +87,11 @@ The tree is rooted by default on the first taxon in your dataset or on the longe
 
 **Questions**
 
-1. Are the UFBoot2 values higher/lower compared to those recovered from the SH-like in IQTREE?
+1. *Are the UFBoot2 values higher/lower compared to those recovered from the SH-like in IQTREE?*
 
-2. How are the nodes/relationships supported?
+2. *How are the nodes/relationships supported?*
 
+3. *Take a look at the best partitioning scheme. What are the merged partitions? Can you see any similarity pattern beween the merged partitions?*
 
 
 
