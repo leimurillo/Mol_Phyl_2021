@@ -72,42 +72,43 @@ Choose the `2.ATP6.fasta` file on the left and your `COITrim.fasta` file on the 
 
 <p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/Concat3.png" alt="Concat3" width="800"></p>
 
-Now click on *`Save to disk`* and save the `alignment.fasta` file on your computer. Rename this file to `ATP&_COI.fasta`. Remember that you can also just copy/paste the alignment directly from your browser and save it in your text editor. Now repeat the concatenation procedure and create the `ATP6_COI_CYTB_ND5.fasta` file using the files you downloaded from [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/).
+Now click on *`Save to disk`* and save the `alignment.fasta` file on your computer. Rename this file to `ATP6_COI.fasta`. Remember that you can also just copy/paste the alignment directly from your browser and save it in your text editor. Now repeat the concatenation procedure and create the `ATP6_COI_CYTB_ND5.fasta` file using the files you downloaded from [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/). Pay attention to the order of the genes!
 
-Open Aliview and open the file you just created in it. You should see something like this:
+Open Aliview and open the file you just created in it. Take a look at it to see if it seems good to you. Now save it as `Concat.fasta`.
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/2.Alignments/Aliview3.png" alt="Aliview3" width="800"></p>
-
-So now we have an alignment of 4 concatenated genes in a single alignment file. But what we don't see immediately in this "*Super Gene*" alignment is where each gene starts and ends in the alignment. One way to obtain this information is to open each gene's alignment `2.ATP6.fasta`, `COIaligned.fasta`, `2.CYTB.fasta` and `2.ND5.fasta` in *Aliview* and look at their lengths. In our concatenated matrix we know the order of the genes...  so you can obtain the position of each gene easily. I want you to create a file in your text editor called `partitions.txt` and write down the information of each gene as:
+So now we have an alignment of 4 concatenated genes in a single alignment file. But what we don't see immediately in this "*Super Gene*" alignment is where each gene starts and ends in the alignment. One way to obtain this information is to open each gene's alignment `2.ATP6.fasta`, `COITrim.fasta`, `2.CYTB.fasta` and `2.ND5.fasta` in *Aliview* and look at their lengths. In our concatenated matrix we know the order of the genes...  so you can obtain the position of each gene easily. I want you to create a file in your text editor called `Partitions.txt` and write down the information of each gene as:
 
 ```
-ATP6 = 1 - X;
-COI = X+1 - Y;
-CYTB = Y+1 - Z;
-ND5 = Z+1 - 5196;
+DNA, ATP6 = 1 - X
+DNA, COI = X+1 - Y
+DNA, CYTB = Y+1 - Z
+DNA, ND5 = Z+1 - 5196
 ```
 
 *What are the correct values for `X`, `Y` and `Z`?* Replace the correct values and save your file. Now that you have the alignments open in *Aliview*, I want you to pay atention to the codon positions. Look at the following picture:
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/2.Alignments/Aliview4.png" alt="Aliview4" width="800"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/2.Alignments/Aliview6.png" alt="Aliview6" width="800"></p>
 
-We want to write down the codon positions for each *partition* of our dataset. To find the correct reading frame and therefore the codon positions you can click on the button in the red rectangle on top left. Then you change the reading frame to find the one which has no stop codons in the alignment using the second red rectangle. *Do you know why?*  Also pay attention to the third red rectangle. In the picture we have the alignment of the *Wingless* gene. It is a protein-coding nuclear gene, so the `Standard code` is the right option. But what about the *COI* gene?
+We want to write down the codon positions for each *partition* of our dataset. To find the correct reading frame and therefore the codon positions you can click on the button in the red rectangle on top left. Then you change the reading frame to find the one which has no stop codons in the alignment using the second red rectangle. *Do you know why?*  Also pay attention to the third red rectangle. In the picture we have the alignment of the *Wingless* gene. It is a protein-coding mitochondrial gene, so the `2.vertebrate mitochondrial` is the right option.
 
-To gain some time I will copy here how you should write down the codon positions for the partition file:
+In addition to the gene ranges in an alignment, you can define different codon positions of a gene. To do so you can use `\3` which means each 3 bases. So your final Partition file should look something like this:
 
 ```
-COI_pos1 = 1 - 1450\3;
-COI_pos2 = 2 - 1450\3;
-COI_pos3 = 3 - 1450\3;
-EF1a_pos3 = 1451 - 2690\3;
-EF1a_pos1 = 1452 - 2690\3;
-EF1a_pos2 = 1453 - 2690\3;
-Wingless_pos1 = 2691 - 3113\3;
-Wingless_pos2 = 2692 - 3113\3;
-Wingless_pos3 = 2693 - 3113\3;
+DNA, ATP6_pos1 = 1 - 681\3
+DNA, ATP6_pos2 = 2 - 681\3
+DNA, ATP6_pos3 = 3 - 681\3
+DNA, COI_pos1 = 682 - 2226\3
+DNA, COI_pos2 = 683 - 2226\3
+DNA, COI_pos3 = 684 - 2226\3
+DNA, Cytb_pos1 = 2227 - 3366\3
+DNA, Cytb_pos2 = 2228 - 3366\3
+DNA, Cytb_pos3 = 2229 - 3366\3
+DNA, ND5_pos1 = 3367 - 5196\3
+DNA, ND5_pos2 = 3368 - 5196\3
+DNA, ND5_pos3 = 3369 - 5196\3
 ```
 
-Copy/Paste this in your text editor and save it as `partitionsCodons.txt`. Now we are ready to find out which partitioning scheme is best for our dataset in the next tutorial.
+Copy/Paste this in your text editor and save it as `PartitionsCodon.txt`. Now we are ready to find out which partitioning scheme is best for our dataset in the next tutorial.
 
 
 
