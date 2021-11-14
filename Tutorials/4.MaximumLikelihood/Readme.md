@@ -94,6 +94,7 @@ The tree is rooted by default on the first taxon in your dataset or on the longe
 3. *Take a look at the best partitioning scheme. What are the merged partitions? Can you see any similarity pattern beween the merged partitions?*
 
 
+----------
 
 **Tree inference on Website (optional if you have not downloaded IQTREE2)**
 
