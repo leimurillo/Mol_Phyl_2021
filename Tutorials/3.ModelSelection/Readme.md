@@ -1,15 +1,15 @@
 # **Model Selection**
 
 
-In the first two tutorials you have learned to download various gene sequences from Genbank and align and concatenate them to create the dataset we want to work on for the rest of the course. You also heard about differences between file formats and saw how to create the needed formats. For the next tutorial, we are going to use *ModelFinder* to find the best partitioning scheme for our dataset and also the best models for each partition.
+In the first two tutorials you have learned to download various gene sequences from Genbank and align and concatenate them to create a multi-gene dataset. You also heard about differences between file formats and saw how to create the needed formats. For the next tutorial, we are going to use *ModelFinder* to find the best partitioning scheme for our dataset and also the best models for each partition.
 
-First remember that our final dataset, `15genes.fasta` was saved as a fasta format (If you did not manage to generate this file, go to [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/) and download `3.15genes.fasta`). Now open *Aliview* and open this file. You should have something similar to this:
+First remember that our final dataset, `Concat.fasta` was formed by 4 genes and you saved it as a fasta format. The mitochondrial genome is formed by 13 protein coding genes and 2 which codes for a ribosomal RNA. So in theory you could repeat what you learned here until now to download all of those genes and concatenate them to create your mitogenomic dataset. I did this for you to save time, so go to [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/) and download `3.15genes.fasta`). Now open *Aliview* and open this file. You should have something similar to this:
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/3.ModelSelection/Aliview3.png" alt="Aliview3" width="900"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/3.ModelSelection/Aliview6.png" alt="Aliview6" width="900"></p>
 
-Now I want you to save a \*.phy and a \.nex alignment file with the name **15genes**. Use the options "***Save as Nexus***" and "***Save as Phylip (full names & padded)***" as seen in the next picture (both options marked with a red rectangle):
+Now I want you to save a \*.phy and a \*.nex alignment file with the name **15genes**. Use the options "***Save as Nexus***" and "***Save as Phylip (full names & padded)***" as seen in the next picture (both options marked with a red rectangle):
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/3.ModelSelection/Aliview5.png" alt="Aliview5" width="900"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/3.ModelSelection/Aliview7.png" alt="Aliview7" width="900"></p>
 
 You should have these two files now:
 
@@ -22,15 +22,15 @@ For substution model selection we are going to use the `15genes.phy` and a comma
 
 **Choosing the right substitution model**
 
-We will use ModelFinder [Kalyaanamoorthy et al. 2017](https://www.nature.com/articles/nmeth.4285), implemented in IQTREE2, to determine the best-fit model. ModelFinder chooses the model that minimizes the BIC score (you can also change to AIC or AICc by adding the option -AIC or -AICc, respectively).
+We will use ModelFinder [Kalyaanamoorthy et al. 2017](https://www.nature.com/articles/nmeth.4285), implemented in IQTREE2, to determine the best-fit model. ModelFinder chooses the model that minimizes the BIC score (you can also change the selection criteria to AIC or AICc by adding the option -AIC or -AICc, respectively).
 
-You will need a partition file either in NEXUS or RAxML-style format like the examples below: 
+You will need a partition file either in NEXUS or RAxML-style formats, like the examples below: 
 
 The RAxML-style partition file may look like:
 
 ```
- DNA, part1 = 1-100 
- DNA, part2 = 101-384
+ DNA, part1 = 1-69 
+ DNA, part2 = 70-666
 ```
 
 Nexus-style partition file may look like:
@@ -38,8 +38,8 @@ Nexus-style partition file may look like:
 ```
 #nexus
 begin sets;
-    charset part1 = 1-100; 
-    charset part2 = 101-384;
+    charset part1 = 1-69; 
+    charset part2 = 70-666;
 end;
 ```
 
