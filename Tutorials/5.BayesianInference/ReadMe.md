@@ -14,46 +14,51 @@ The first thing is to prepare your dataset (which is in the NEXUS format). MrBay
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/5.BayesianInference/MrBayes2.png" alt="MrBayes2" width="600"></p>
 
 
-Open your text editor and simply add at the end of your `DatasetMB.nex` file this block:
+Open your text editor and simply add at the end of your `15genes.nex` file this block:
 
 ```
 begin mrbayes;
 
-	charset Subset1 = 1-1450\3;
-	charset Subset2 = 2-1450\3;
-	charset Subset3 = 3-1450\3;
-	charset Subset4 = 1451-2690\3 2693-3113\3;
-	charset Subset5 = 2691-3113\3 2692-3113\3 1452-2690\3;
-	charset Subset6 = 1453-2690\3;
-
-	partition PartitionFinder = 6:Subset1, Subset2, Subset3, Subset4, Subset5, Subset6;
-	set partition=PartitionFinder;
-    
-    set autoclose=yes;
+  	charset Subset1 = 1 - 983  984 - 2597  3555 - 4605\3  6836 - 7038\3  8461 -  		8807\3  8808 - 9103\3  9104 - 10475\3  10476 - 12296\3  12808 - 13947\3;
+  	charset Subset2 = 2598 - 3554\3  4606 - 6151\3  6152 - 6835\3  6837 - 7038\3  7677 - 8460\3  12297 - 12807\3;
+  	charset Subset3 = 2599 - 3554\3  3556 - 4605\3  4607 - 6151\3  6153 - 6835\3  7040 - 7676\3  7678 - 8460\3  8462 - 8807\3  8809 - 9103\3  9105 - 10475\3  10477 - 12296\3  12299 - 12807\3  12809 - 13947\3;
+  	charset Subset4 = 2600 - 3554\3  12810 - 13947\3;
+  	charset Subset5 = 3557 - 4605\3;
+  	charset Subset6 = 4608 - 6151\3  6838 - 7038\3;
+  	charset Subset7 = 6154 - 6835\3  7041 - 7676\3  7679 - 8460\3  8463 - 8807\3  8810 - 9103\3  9106 - 10475\3  10478 - 12296\3  12298 - 12807\3;
+  	charset Subset8 = 7039 - 7676\3;
+  
+  	Partition ModelFinder = 8:Subset1, Subset2, Subset3, Subset4, Subset5, Subset6, Subset7, Subset8;
+  	set partition=ModelFinder;
+  
+  	set autoclose=yes;
 
 	lset applyto=(1) nst=6 rates=invgamma;
-	lset applyto=(2) nst=2 rates=propinv;
-	lset applyto=(3) nst=2 rates=gamma;
-	lset applyto=(4) nst=6 rates=gamma;
+	lset applyto=(2) nst=6 rates=invgamma;
+	lset applyto=(3) nst=2 rates=invgamma;
+	lset applyto=(4) nst=6 rates=invgamma;
 	lset applyto=(5) nst=6 rates=invgamma;
-	lset applyto=(6) nst=1;
+	lset applyto=(6) nst=6 rates=invgamma;
+	lset applyto=(7) nst=6 rates=invgamma;
+	lset applyto=(8) nst=2 rates=invgamma;
+  
 
-    prset applyto=(all) ratepr=variable brlensp=unconstrained:Exp(100.0) shapepr=exp(1.0) tratiopr=beta(2.0,1.0);
-    unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all) tratio=(all);
+	prset applyto=(all) ratepr=variable brlensp=unconstrained:Exp(100.0) shapepr=exp(1.0) tratiopr=beta(2.0,1.0);
+    	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all) tratio=(all);
 
-    mcmc ngen=2000000 printfreq=1000 samplefreq=1000 nchains=4 nruns=2 savebrlens=yes [temp=0.11];
-    sump relburnin=yes [no] burninfrac=0.25 [2500];
-    sumt relburnin=yes [no] burninfrac=0.25 [2500] contype=halfcompat [allcompat];
+    	mcmc ngen=2000000 printfreq=1000 samplefreq=1000 nchains=4 nruns=2 savebrlens=yes [temp=0.11];
+    	sump relburnin=yes [no] burninfrac=0.25 [2500];
+    	sumt relburnin=yes [no] burninfrac=0.25 [2500] contype=halfcompat [allcompat];
 END;
 ```
 
-After you prepare the NEXUS file, save it as `DatasetMBrun.nex`. Next, open a terminal, run MrBayes and finally run your analysis by writing ”Execute" filename (provide the path of your file). 
+After you prepare the NEXUS file, save it as `15genes.nex`. Next, open a terminal, run MrBayes and finally run your analysis by writing ”execute" filename (provide the path of your file). 
 
-<p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/5.BayesianInference/MrBayes3.png" alt="MrBayes3" width="600"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/5.BayesianInference/MrBayes3.png" alt="MrBayes3" width="600"></p>
 
 If the dataset is okay, the analysis should look like this:
 
-<p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/5.BayesianInference/MrBayes4.png" alt="MrBayes4" width="600"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/5.BayesianInference/MrBayes4.png" alt="MrBayes4" width="600"></p>
 
 As we mentioned before, another way to run the program is by giving the commands step by step. You only need your dataset and partition in the NEXUS format. To do so, follow these instructions: 
 
