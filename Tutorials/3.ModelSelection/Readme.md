@@ -63,7 +63,7 @@ But if you want to consider a FreeRate heterogeneity model then run:
 
 
 ```
-iqtree2 -s 15genes.phy -p Partitions15genes.txt -m MF+MERGE -rcluster 10
+iqtree2 -s 15genes.phy -p 3.Partitions15genes.txt -m MF+MERGE -rcluster 10
 
 ```
 ModelFinder will implement a greedy strategy with full partition model, subsequentially merging genes and considering a FreeRate heterogeneity model.
@@ -72,7 +72,7 @@ Additionally, if you want to restrict model selection to only those model suppor
 
 
 ```
-iqtree2 -s 15genes.phy -p Partitions15genes.txt -m TESTMERGEONLY -mset mrbayes -rcluster 10 
+iqtree2 -s 15genes.phy -p 3.Partitions15genes.txt -m TESTMERGEONLY -mset mrbayes -rcluster 10 
 
 ```
 
