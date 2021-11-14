@@ -41,7 +41,7 @@ As you see, the majority of the changes in the nucleotide level do not change th
 
 There is a gap for all the sequences but one, which has an `n` in that position (right black rectangle). This gap column, changes the translation frame (reading frame). In a protein coding gene this is clearly not possible, therefore the `n`is wrong and most probably it is a sequencing error. Delete the whole column. Pay extra attention to only delete this column and nothing else by error. Take a look at the other rectangle in the picture, there is a single gap in the middle of a protein coding gene. Here again a single gap is not possible. please replace it with an `n`. *Why it is not possible to have a single gap in this position? Why we replace it with an `n`?*
 
-Now please export your alignment as `COITrim.fasta`. We need to repeat the same steps since the beginning for *ATP6*, *CYTB* and *ND5* genes. But to save some time I have already prepared these files for you, go to [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/) and download the following files: 
+Now please export your alignment as `COITrim.fasta` (we trimmed the alignment!). We need to repeat the same steps since the beginning for *ATP6*, *CYTB* and *ND5* genes. But to save some time I have already prepared these files for you, go to [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/) and download the following files: 
 
 
 ```
@@ -68,7 +68,7 @@ Please click on the only option which is red (*Fasta alignment joiner*). You sho
 
 <p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/Concat2.png" alt="Concat2" width="800"></p>
 
-Choose the `2.ATP6.fasta` file on the left and your `COIaligned.fasta` file on the right. You should have something like this now:
+Choose the `2.ATP6.fasta` file on the left and your `COITrim.fasta` file on the right. You should have something like this now:
 
 <p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/Concat3.png" alt="Concat3" width="800"></p>
 
