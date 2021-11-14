@@ -7,7 +7,7 @@ Fot this practical, we will work with MrBayes. MrBayes is a program that incorpo
 
 This is a ”user unfriendly” program, i.e. it is command driven and opens up in the terminal window. To use it, you need to know the sequence of commands that need to be input into the program. 
 
-<p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/5.BayesianInference/MrBayes1.png" alt="MrBayes1" width="600"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/5.Bayesianinference/MrBayes1.png" alt="MrBayes1" width="600"></p>
 
 The first thing is to prepare your dataset (which is in the NEXUS format). MrBayes analyses can be done either by command line step by step or by adding all the parameters and different data partitions to your data file. You can add this information in a text editor at the end of your data file. See the following example: 
 
