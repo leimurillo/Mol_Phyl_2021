@@ -5,13 +5,9 @@ In the first two tutorials you have learned to download various gene sequences f
 
 First remember that our final dataset, `Concat.fasta` was formed by 4 genes and you saved it as a fasta format. The mitochondrial genome is formed by 13 protein coding genes and 2 which codes for a ribosomal RNA. So in theory you could repeat what you learned here until now to download all of those genes and concatenate them to create your mitogenomic dataset. I did this for you to save time, so go to [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/) and download `3.15genes.fasta`). Now open *Aliview* and open this file. You should have something similar to this:
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/3.ModelSelection/Aliview6.png" alt="Aliview6" width="900"></p>
-
-Now I want you to save a \*.phy and a \*.nex alignment file with the name **15genes**. Use the options "***Save as Nexus***" and "***Save as Phylip (full names & padded)***" as seen in the next picture (both options marked with a red rectangle):
-
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/3.ModelSelection/Aliview7.png" alt="Aliview7" width="900"></p>
 
-You should have these two files now:
+Now I want you to save a \*.phy and a \*.nex alignment file with the name **15genes**. Use the options "***Save as Nexus***" and "***Save as Phylip (full names & padded)***". You should have these two files now:
 
 ```
 15genes.phy
