@@ -44,7 +44,7 @@ Using a web browser, you need to navigate to the NCBI’s Genbank. Even if the [
 | 32 | KP001495 | *Panthera	leo* | 
 | 33 | KF483864 | *Panthera	onca* | 
 | 34 | KM236783 | *Panthera	onca* |
-| 35 | KKJ866876 | *Panthera	pardus japonensis* |
+| 35 | KJ866876 | *Panthera	pardus japonensis* |
 | 36 | KP001507 | *Panthera pardus* | 
 | 37 | MH124079 | *Panthera tigris altaica* |
 | 38 | JF357972 | *Panthera tigris corbetti* |
