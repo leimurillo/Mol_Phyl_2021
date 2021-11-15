@@ -79,7 +79,7 @@ You should have something similar to this:
 
 Open the file `.treefile` retrieved from IQTREE2 and check the support values. The phylogeny should look more or less as shown in the next screenshot.
 
-<p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/4.MaximumLikelihood/RAxML4.png" alt="RAxML4" width="600"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/4.MaximumLikelihood/IQTREEc.png" alt="IQTREEc" width="600"></p>
 
 The tree is rooted by default on the first taxon in your dataset or on the longest branch in the dataset. In our case we should reroot the tree on the branch leading to *Asterocampa* (which is our outgroup). In FigTree, click on the branch leading to *Asterocampa* to select it, and then click on the "Reroot" button in FigTree.
 
