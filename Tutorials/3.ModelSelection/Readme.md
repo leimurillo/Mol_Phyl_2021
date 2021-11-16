@@ -3,7 +3,7 @@
 
 In the first two tutorials you have learned to download various gene sequences from Genbank and align and concatenate them to create a multi-gene dataset. You also heard about differences between file formats and saw how to create the needed formats. For the next tutorial, we are going to use *ModelFinder* to find the best partitioning scheme for our dataset and also the best models for each partition.
 
-First remember that our final dataset, `Concat.fasta` was formed by 4 genes and you saved it as a fasta format. The mitochondrial genome is formed by 13 protein coding genes and 2 which codes for a ribosomal RNA. So in theory you could repeat what you learned here until now to download all of those genes and concatenate them to create your mitogenomic dataset. I did this for you to save time, so go to [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/) and download `3.15genes.fasta`). Now open *Aliview* and open this file. You should have something similar to this:
+First remember that our final dataset, `Concat.fasta` was formed by 4 genes and you saved it as a fasta format. The mitochondrial genome is formed by 13 protein coding genes and 2 which codes for a ribosomal RNA. So in theory you could repeat what you learned here until now to download all of those genes and concatenate them to create your mitogenomic dataset. I did this for you to save time, so go to [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/Day2) and download `3.15genes.fasta`). Now open *Aliview* and open this file. You should have something similar to this:
 
 <p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/3.ModelSelection/Aliview7.png" alt="Aliview7" width="900"></p>
 
@@ -39,7 +39,7 @@ begin sets;
 end;
 ```
 
-For simplicity and to save time in this tutorial we will use a partitions file saved in **Data** . So, go to the folder [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/) and download `3.Partitions15genes.txt` 
+For simplicity and to save time in this tutorial we will use a partitions file saved in **Data** . So, go to the folder [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/Day2) and download `3.Partitions15genes.txt` 
 
 **Determine the best-fit model**
 
