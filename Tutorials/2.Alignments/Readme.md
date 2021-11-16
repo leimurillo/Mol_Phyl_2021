@@ -72,7 +72,7 @@ Choose the `2.ATP6.fasta` file on the left and your `COITrim.fasta` file on the 
 
 <p align="center"><img src="https://github.com/niklas-w/Molecular-systematics-course/blob/master/Tutorials/2.Alignments/Concat3.png" alt="Concat3" width="800"></p>
 
-Now click on *`Save to disk`* and save the `alignment.fasta` file on your computer. Rename this file to `ATP6_COI.fasta`. Remember that you can also just copy/paste the alignment directly from your browser and save it in your text editor. Now repeat the concatenation procedure and create the `ATP6_COI_CYTB_ND5.fasta` file using the files you downloaded from [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/). Pay attention to the order of the genes!
+Now click on *`Save to disk`* and save the `alignment.fasta` file on your computer. Rename this file to `ATP6_COI.fasta`. Remember that you can also just copy/paste the alignment directly from your browser and save it in your text editor. Now repeat the concatenation procedure and create the `ATP6_COI_CYTB_ND5.fasta` file using the files you downloaded from [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/Day1). Pay attention to the order of the genes!
 
 Open Aliview and open the file you just created in it. Take a look at it to see if it seems good to you. Now save it as `Concat.fasta`.
 
