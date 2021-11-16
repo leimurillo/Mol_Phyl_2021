@@ -41,7 +41,7 @@ As you see, the majority of the changes in the nucleotide level do not change th
 
 There is a gap for all the sequences but one, which has an `n` in that position (right black rectangle). This gap column, changes the translation frame (reading frame). In a protein coding gene this is clearly not possible, therefore the `n`is wrong and most probably it is a sequencing error. Delete the whole column. Pay extra attention to only delete this column and nothing else by error. Take a look at the other rectangle in the picture, there is a single gap in the middle of a protein coding gene. Here again a single gap is not possible. please replace it with an `n`. *Why it is not possible to have a single gap in this position? Why we replace it with an `n`?*
 
-Now please export your alignment as `COITrim.fasta` (we trimmed the alignment!). We need to repeat the same steps since the beginning for *ATP6*, *CYTB* and *ND5* genes. But to save some time I have already prepared these files for you, go to [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/) and download the following files: 
+Now please export your alignment as `COITrim.fasta` (we trimmed the alignment!). We need to repeat the same steps since the beginning for *ATP6*, *CYTB* and *ND5* genes. But to save some time I have already prepared these files for you, go to [Data](https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Data/Day1) and download the following files: 
 
 
 ```
