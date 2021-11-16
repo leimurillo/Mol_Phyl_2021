@@ -27,7 +27,7 @@ iqtree2 funtion= will call the executable
 
 `-bb`: will perfom Ultrafast Boostrap.
 
-`-arlt`: will perform the SH-aLRT test.
+`-alrt`: will perform the SH-aLRT test.
 
 `-rcluster`: Specify the percentage for the relaxed clustering algorithm (Lanfear et al., 2014) to speed up the computation instead of the default slow greedy algorithm.
 
@@ -46,7 +46,7 @@ IQTREE2 will infer a tree from a sequence alignment (file.phy) with the best-fit
 
 2. However, to find best partition scheme by possibly merging partitions, followed by tree inference and branches support run an analysis by entering
 
-`iqtree2 -s 15genes.phy -p 3.Partitions15genes.txt -m MFP+MERGE -B 1000 -arlt 1000 -rcluster 10 -bnni`
+`iqtree2 -s 15genes.phy -p 3.Partitions15genes.txt -m MFP+MERGE -B 1000 -alrt 1000 -rcluster 10 -bnni`
 
 
 You should have something similar to this:
