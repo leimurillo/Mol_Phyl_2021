@@ -58,7 +58,7 @@ After you prepare the NEXUS file, save it as `15genes.nex`. Next, open a termina
 
 If the dataset is okay, the analysis should look like this:
 
-<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/5.BayesianInference/MrBayes4.png" alt="MrBayes4" width="600"></p>
+<p align="center"><img src="https://github.com/leimurillo/Mol_Phyl_2021/blob/main/Tutorials/5.BayesianInference/Mrbayes4.png" alt="Mrbayes4" width="600"></p>
 
 As we mentioned before, another way to run the program is by giving the commands step by step. You only need your dataset and partition in the NEXUS format. To do so, follow these instructions: 
 
